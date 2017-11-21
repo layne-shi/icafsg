@@ -1,11 +1,11 @@
 <?php
 /*system*/
-$lang['system_author'] = '小六网络科技';
-$lang['system_name'] = 'X6CMS';
-$lang['system_adminname'] = 'X6CMS后台管理中心';
-$lang['system_link'] = 'http://www.x6cms.com';
-$lang['system_version'] = '2.2(20130305)';
-$lang['system_copy'] = '© 2012 小六网络科技.';
+$lang['system_author'] = '';
+$lang['system_name'] = '';
+$lang['system_adminname'] = '后台管理中心';
+$lang['system_link'] = '';
+$lang['system_version'] = '';
+$lang['system_copy'] = '';
 
 /*base*/
 $lang['order'] = '顺序';
@@ -366,7 +366,7 @@ $lang['dynamic'] = '官方动态';
 $lang['bugsubmit'] = 'Bug提交';
 $lang['moredynamic'] = '更多动态';
 $lang['lasttimelogin'] = '最后登录时间';
-$lang['x6cmsversion'] = 'X6CMS版本';
+$lang['x6cmsversion'] = '版本';
 $lang['runsetting'] = '运行环境';
 $lang['mysqlversion'] = 'MYSQL版本';
 $lang['overspace'] = '剩余空间';

@@ -27,7 +27,9 @@ function seton(t,url) {
 	$(t).addClass("on");
 	parent.main.location.href=url;
 }
-
+function selectFirst(tid){
+    $("#purview_"+tid).find('td').eq(1).click();
+}
 <?php if(isset($parent)&&$parent>0):?>
 setTab(<?=$parent?>);
 <?php endif;?>

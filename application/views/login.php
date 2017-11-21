@@ -2,7 +2,7 @@
 <html>
 <head>
 <meta content="text/html; charset=utf-8" http-equiv=Content-Type>
-<title><?=lang('system_adminname')?> - Powered by <?=lang('system_name')?> <?=lang('system_version')?></title>
+<title><?=lang('system_adminname')?></title>
 <script type="text/javascript" src="<?=base_url('js/jquery.min.js')?>"></script>
 <script type="text/javascript">
 function login(){
@@ -42,8 +42,8 @@ function flashing(){
 	$("#msgtip").show(200);
 }
 $(document).keypress(function(e) {
-if (e.which == 13)  
-	login(); 
+if (e.which == 13)
+	login();
 });
 </script>
 <style type="text/css">
@@ -65,7 +65,7 @@ table{margin-top:80px;margin-left:100px;line-height:24px;}
 <tr><td height="60" valign="top" align="right"><?=lang('user_name')?></td><td valign="top" align="left"><input type="text" name="user_name" id="user_name" ></td></tr>
 <tr><td height="40" valign="top" align="right"><?=lang('user_pass')?></td><td valign="top" align="left"><input type="password" name="user_pass" id="user_pass" ></td></tr>
 <tr><td colspan="2" height="50" valign="top"><span id="msgtip"></span><a href="javascript:void(0)" onclick="login()" id="loginbtn"><?=lang('btn_login')?></a></td></tr>
-<tr><td colspan="2" height="20" class="footer"><?=lang('system_copy')?>  Powered by <a href="<?=lang('system_link')?>" target="_blank"><?=lang('system_name')?></a></td></tr>
+
 </table>
 </div>
 </body>
