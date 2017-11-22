@@ -5,3 +5,7 @@ https://github.com/layne-shi/icafsg
 hahha
 
 ok 
+
+(1) remote fetch后，
+(2) 先 merge，
+(3) 然后再commit
