@@ -14,7 +14,7 @@
 | path to your installation.
 |
 */
-$config['base_url']	= 'http://localhost/icafsg/icafsg/';
+$config['base_url']	= 'http://localhost:8011/git/icafsg/';
 
 /*
 |--------------------------------------------------------------------------
@@ -234,7 +234,7 @@ $config['cache_path'] = 'data/cache/';
 | MUST set an encryption key.  See the user guide for info.
 |
 */
-$config['encryption_key'] = 'leex6cms';
+$config['encryption_key'] = 'lasfksx';
 /*
 |--------------------------------------------------------------------------
 | Session Variables
@@ -253,7 +253,7 @@ $config['encryption_key'] = 'leex6cms';
 | 'sess_time_to_update'		= how many seconds between CI refreshing Session Information
 |
 */
-$config['sess_cookie_name']		= 'x6cmssession';
+$config['sess_cookie_name']		= 'lasfksxssession';
 $config['sess_expiration']		= 86400;
 $config['sess_expire_on_close']	= TRUE;
 $config['sess_encrypt_cookie']	= FALSE;
