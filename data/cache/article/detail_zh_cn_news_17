@@ -1,0 +1,103 @@
+a:3:{s:4:"time";i:1511274533;s:3:"ttl";i:86400;s:4:"data";a:31:{s:2:"id";s:2:"17";s:8:"category";s:1:"1";s:5:"title";s:48:"关于最近电脑时间自动倒退一年提示";s:3:"uid";s:1:"1";s:8:"keywords";s:30:"电脑时间自动倒退一年";s:11:"description";s:267:"最近国内大面积电脑时间倒退一年。具网络中流传，有可能是360相关软件引起的。以前一直以为电脑时间嘛，没什么大不了的，结果出现这个问题之后，才发现，问题很大，以下是几个今天碰到的问题。";s:7:"content";s:1143:"<p>
+ 最近国内大面积电脑时间倒退一年。具网络中流传，有可能是360相关软件引起的。以前一直以为电脑时间嘛，没什么大不了的，结果出现这个问题之后，才发现，问题很大，以下是几个今天碰到的问题。
+</p>
+<p>
+ &nbsp;
+</p>
+<p>
+ 电脑时间出现问题，引起的问题：
+</p>
+<p>
+ 1、很多需要在线支付的网站，支付不了。比如淘宝，这些网站都需要安装证书，如果电脑时间错误，会提示证书过期，引起没法进行下一步操作。
+</p>
+<p>
+ 2、discuz论坛，用户登录有可能出现需要激活的情况。引起这种情况是因为，你的电脑时间比当时注册帐号的时间还早，系统出现错误。
+</p>
+<p>
+ 3、有的网站发布各种文章使用的本机时间，发布后发现文章跑到很早以前的文章一起去了，不在最新文章里边，收录不了。
+</p>
+<p>
+ ......
+</p>
+<p>
+ &nbsp;
+</p>
+<p>
+ 该事件后续：
+</p>
+<p>
+ 360已经发布公告：《360杀毒关于系统时间Bug的解决公告》<br />
+http://bbs.360.cn/4077772/254084394.html
+</p>";s:8:"copyfrom";s:6:"小六";s:8:"fromlink";s:20:"http://www.x6cms.com";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:5:"color";s:0:"";s:6:"isbold";s:0:"";s:4:"tags";s:2:"31";s:10:"recommends";s:0:"";s:4:"hits";s:2:"11";s:8:"realhits";s:2:"11";s:10:"createtime";s:10:"1347355854";s:10:"updatetime";s:10:"1358666539";s:7:"puttime";s:19:"2012-06-01 17:30:07";s:3:"tpl";s:0:"";s:9:"listorder";s:3:"999";s:6:"status";s:1:"1";s:4:"lang";s:5:"zh_cn";s:10:"categoryid";s:1:"1";s:12:"categoryname";s:12:"新闻中心";s:11:"categoryurl";s:57:"http://localhost:8011/git/icafsg/index.php?/category/news";s:13:"categorymodel";s:7:"article";s:3:"url";s:58:"http://localhost:8011/git/icafsg/index.php?/detail/news/17";s:7:"tagsstr";s:70:"<a href="http://localhost:8011/git/icafsg/index.php?/tags/seo">seo</a>";s:3:"pre";a:29:{s:2:"id";s:2:"16";s:8:"category";s:1:"1";s:5:"title";s:60:".CN域名注册细则修订：个人首次获得申请资格";s:3:"uid";s:1:"1";s:8:"keywords";s:20:"个人注册cn域名";s:11:"description";s:292:"5月28日下午消息，中国互联网络信息中心（CNNIC）今日发布公告称，将从明日开始实施修订后的域名注册实施细则。新规执行后，自然人将首次获得.CN和.中国域名的申请资格。过去两年我国顶级域名注册量下降了近1000万。";s:7:"content";s:2057:"<p>
+ 5月28日下午消息，中国互联网络信息中心（CNNIC）今日发布公告称，将从明日开始实施修订后的域名注册实施细则。新规执行后，自然人将首次获得.CN和.中国域名的申请资格。过去两年我国顶级域名注册量下降了近1000万。
+</p>
+<p>
+ 据介绍此次修订，重点修改了原《实施细则》第十四条中关于域名注册主体的规定，并增加专门章节对域名注册信息的保护进行阐述，同时，针对域名注册、转移、续费等环节进行了修改完善。主要修改如下：
+</p>
+<p>
+ 一、关于域名注册主体的增加。修订为“任何自然人或者能独立承担民事责任的组织均可在本细则规定的顶级域名下申请注册域名”，即域名注册的主体扩大至自然人。
+</p>
+<p>
+ 二、关于域名注册信息的保护。为加强域名注册者信息的安全保护，修订后的《实施细则》通过对注册资料的传输、保存、销毁以及域名注册服务机构退出时域名注册信息、资料的处理等作出的详细规定，加强对用户信息的安全保护。
+</p>
+<p>
+ 三、关于域名的续费确认期。《实施细则》规定“域名到期后自动进入30日的续费确认期，用户在此期限内确认是否续费，如书面表示不续费，域名注册服务机构有权注销该域名；如果用户在30日内未书面表示不续费，也未续费，域名注册服务机构有权30日后注销域名”。
+</p>
+<p>
+ CNNIC表示，.CN和.中国域名向自然人开放后，并不会使恶意注册事件进一步扩大，同时指出相关争议已有相关的解决流程。而对于此前使用不实信息注册相关域名的个人用户，CNNIC表示正在进行相关核验，且向用户提供一次域名注册转移的机会。
+</p>
+<p>
+ 由于实名制和定价回复等原因，.CN和.中国注册和持有情况持续低迷。官方披露的数据显示，过去两年中.CN和。中国域名数量下降了约1000万。
+</p>";s:8:"copyfrom";s:6:"小六";s:8:"fromlink";s:20:"http://www.x6cms.com";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:5:"color";s:0:"";s:6:"isbold";s:0:"";s:4:"tags";s:0:"";s:10:"recommends";s:0:"";s:4:"hits";s:1:"7";s:8:"realhits";s:1:"7";s:10:"createtime";s:10:"1347355782";s:10:"updatetime";s:10:"1358149303";s:7:"puttime";s:19:"2012-05-29 17:29:01";s:3:"tpl";s:0:"";s:9:"listorder";s:3:"999";s:6:"status";s:1:"1";s:4:"lang";s:5:"zh_cn";s:10:"categoryid";s:1:"1";s:12:"categoryname";s:12:"新闻中心";s:11:"categoryurl";s:57:"http://localhost:8011/git/icafsg/index.php?/category/news";s:13:"categorymodel";s:7:"article";s:3:"url";s:58:"http://localhost:8011/git/icafsg/index.php?/detail/news/16";s:7:"tagsstr";b:0;}s:4:"next";a:29:{s:2:"id";s:2:"19";s:8:"category";s:1:"1";s:5:"title";s:21:"最简单的留言板";s:3:"uid";s:1:"1";s:8:"keywords";s:21:"简单留言板代码";s:11:"description";s:175:"史上最简单留言板代码，这是最开始学习php的时候写的一段代码。如果没接触过php的，想学习php的朋友可以看看，老手路过，不要喷~";s:7:"content";s:739:"史上最简单留言板代码，这是最开始学习php的时候写的一段代码。如果没接触过php的，想学习php的朋友可以看看，老手路过，不要喷~<br />
+<pre class="prettyprint lang-php">&lt;!--?php
+if($_POST['message'])
+{
+$message="$_POST['name'] --$_POST['message']
+&lt;hr /&gt;
+";
+$fp=fopen&#40;"1.txt","a"&#41;;
+fwrite($fp,$_POST['message']);
+fclose($fp);
+}
+@readfile&#40;"1.txt"&#41;
+?&gt;
+<table>
+ 
+ <tbody>
+  
+  <tr>
+   
+   <td>
+    <b>昵称：</b> 
+   </td>
+
+   <td>
+    
+   </td>
+
+  </tr>
+
+  <tr>
+   
+   <td>
+    <b>留言内容：</b> 
+   </td>
+
+   <td>
+    
+   </td>
+
+  </tr>
+
+  <tr>
+   
+   <td>
+    
+   </td>
+
+  </tr>
+
+ </tbody>
+
+</table>
+</pre>";s:8:"copyfrom";s:6:"小六";s:8:"fromlink";s:20:"http://www.x6cms.com";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:5:"color";s:14:"color:#E53333;";s:6:"isbold";s:0:"";s:4:"tags";s:1:"0";s:10:"recommends";s:0:"";s:4:"hits";s:2:"39";s:8:"realhits";s:2:"39";s:10:"createtime";s:10:"1347356217";s:10:"updatetime";s:10:"1358513383";s:7:"puttime";s:19:"2012-08-24 17:34:13";s:3:"tpl";s:0:"";s:9:"listorder";s:3:"999";s:6:"status";s:1:"1";s:4:"lang";s:5:"zh_cn";s:10:"categoryid";s:1:"1";s:12:"categoryname";s:12:"新闻中心";s:11:"categoryurl";s:57:"http://localhost:8011/git/icafsg/index.php?/category/news";s:13:"categorymodel";s:7:"article";s:3:"url";s:58:"http://localhost:8011/git/icafsg/index.php?/detail/news/19";s:7:"tagsstr";b:0;}}}
