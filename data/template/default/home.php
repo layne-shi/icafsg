@@ -43,15 +43,15 @@ $(function(){
 				</div>
 			</div>
 			<div class="inleft02">
-              <div class="title"><a href="<?=site_url('category/ask'.$langurl)?>"><img src="data/template/default/images/tit02.jpg" width="282" height="33"></a></div>
+              <div class="title"><a href="<?=site_url('category/artscouncil'.$langurl)?>"><img src="data/template/default/images/tit02.jpg" width="282" height="33"></a></div>
                <div class="inle_news">   
 				<ul>
-					<?php $tmpData = x6cms_modellist('artscouncil',0,'default',5,0);?>
-					<?php foreach($tmpData as $item):?>
-					<li><a href="http://icafsg.com/yszk.aspx">藝術總監</a></li>
-					<li><a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>" ><?=$item['title']?></a></li>
-					<?php endforeach;?>
-					<?php unset($tempData,$item);?>	
+					<!-- 此处循环 艺术委员会 栏目下的文章 -->
+					<li><a href="http://icafsg.com/qweqwr.aspx">藝術總顧問</a></li>
+					<li><a href="http://icafsg.com/qweqwr.aspx">藝術總顧問</a></li>
+					<li><a href="http://icafsg.com/qweqwr.aspx">藝術總顧問</a></li>
+					<li><a href="http://icafsg.com/qweqwr.aspx">藝術總顧問</a></li>
+					<li><a href="http://icafsg.com/qweqwr.aspx">藝術總顧問</a></li>
 				</ul>
                </div>
 			</div>
