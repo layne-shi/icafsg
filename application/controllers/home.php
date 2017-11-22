@@ -10,7 +10,7 @@ class Home extends CI_Controller {
 		}
 		$this->load->helper('tags');
 	}
-
+	
 	public function index(){
 		$config = $this->Cache_model->loadConfig();
 		$config['seo_title'] = $config['site_title'];
@@ -23,8 +23,7 @@ class Home extends CI_Controller {
 				'langurl'=>$this->Cache_model->langurl
 		);
 		$tpl = $config['site_home']==''?'home':$config['site_home'];
-
 		$this->load->view($config['site_template'].'/'.$tpl,$res);
 	}
-
+	
 }

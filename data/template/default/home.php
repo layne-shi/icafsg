@@ -5,33 +5,70 @@ $(function(){
 	$("#KinSlideshow").KinSlideshow();
 })
 </script>
-<div class="main">
-	<div class="banner"> 
-	<!--slider start-->
-	<div class="bslide">
-		<div class="boslide">
-			<div class="slide">
-				<div id="KinSlideshow" style="visibility:hidden;">
-				<?php $tmpData = x6cms_slide(2);?>
-				<?php foreach($tmpData as $item):?>
-				<a href="<?=$item['url']?>" target="_blank"><img src="<?=$item['thumb']?>" alt="<?=$item['title']?>" width="640" height="250" /></a>
-				<?php endforeach;?>
-				<?php unset($tmpData,$item);?>
+<div class="wrap main">
+	<div class="position-relative">		
+		<div class="long1"></div>
+		<div class="long2"></div>
+		<div class="long3"></div>
+		<div class="long4"></div>
+	</div>
+	<!-- slide ad start -->
+	<div class="slide-ad">
+		<div id="KinSlideshow" style="visibility:hidden;">
+		<?php $tmpData = x6cms_slide(2);?>
+		<?php foreach($tmpData as $item):?>
+		<a href="<?=$item['url']?>" target="_blank"><img src="<?=$item['thumb']?>" alt="<?=$item['title']?>" width="1000" height="353" /></a>
+		<?php endforeach;?>
+		<?php unset($tmpData,$item);?>
+		</div>
+	</div>
+	<!-- slide ad end -->
+	<!-- content -->
+	<div class="main-content">
+		<div class="main_left">
+			<div class="inleft01">
+				<div class="title">
+					<a href="<?=site_url('category/ask'.$langurl)?>">
+						<img src="data/template/default/images/tit01.jpg" width="425" height="33">
+					</a>
+				</div>
+				<div class="clearfix">
+					<div class="intr_left">						
+						<?=x6cms_fragment('index_chinest_festival')?>
+					</div>
+					<div class="intr_right">
+						<div class="intr_right01"><?=x6cms_fragment('index_chinest_festival_title')?></div>
+						<div class="intr_right02"><?=x6cms_fragment('index_chinest_festival_content')?></div> 					
+					</div>
 				</div>
 			</div>
-		</div>	
+			<div class="inleft02">
+              <div class="title"><a href="<?=site_url('category/ask'.$langurl)?>"><img src="data/template/default/images/tit02.jpg" width="282" height="33"></a></div>
+               <div class="inle_news">   
+				<ul>
+					<?php $tmpData = x6cms_modellist('artscouncil',0,'default',5,0);?>
+					<?php foreach($tmpData as $item):?>
+					<li><a href="http://icafsg.com/yszk.aspx">藝術總監</a></li>
+					<li><a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>" ><?=$item['title']?></a></li>
+					<?php endforeach;?>
+					<?php unset($tempData,$item);?>	
+				</ul>
+               </div>
+			</div>
+		</div>
+		<div class="main_right">right</div>
 	</div>
-	<!--slider end-->
-	</div>
+	<!-- *************************** -->
+
 	<div class="news">
 		<span class="head"><span><?=lang('article')?></span><a href="<?=site_url('category/news'.$langurl)?>"  class="fr"><?=lang('more')?></a></span>
-		 <ul>
+		<ul>
 			<?php $tmpData = x6cms_modellist('article',0,'default',7,0);?>
 			<?php foreach($tmpData as $item):?>
 			<li>[<a href="<?=$item['categoryurl']?>"><?=$item['categoryname']?></a>]<a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>"><?=$item['title']?></a></li>
 			<?php endforeach;?>
 			<?php unset($tempData,$item);?>
-		 </ul>
+		</ul>
 	</div>
 	<div class="main_left">
 		<div class="ask">

@@ -6,7 +6,7 @@ class Cache_model extends CI_Model{
   		$this->CI =& get_instance();
   		$this->load->driver('cache', array('adapter' => 'file'));
 	}
-
+	
 	function setLang($get=array()){
 		$num = $get?count($get):0;
 		$langconfig = $this->loadConfig('lang');
@@ -35,7 +35,7 @@ class Cache_model extends CI_Model{
 				break;
 		}
 	}
-
+	
 	function loadLang(){
 		$cachestr = 'lang';
 		$cache = $this->CI->cache->get($cachestr);
@@ -50,7 +50,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadConfig($category='base'){
 		if($category=='base'){
 			$cachestr = 'config_'.$this->currentLang.'_'.$category;
@@ -58,7 +58,6 @@ class Cache_model extends CI_Model{
 			$cachestr = 'config_'.$category;
 		}
 		$cache = $this->CI->cache->get($cachestr);
-
 		if(!$cache){
 			if($category=='base'){
 				$data = $this->CI->Data_model->getData(array('lang'=>$this->currentLang,'category'=>$category),'',0,0,'config');
@@ -79,7 +78,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadNavigation($type){
 		$cachestr = 'navigation_'.$this->currentLang.'_'.$type;
 		$cache = $this->CI->cache->get($cachestr);
@@ -97,7 +96,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache?$cache:array();
 	}
-
+	
 	function loadSearch($model,$ismult=true){
 		$cachestr = 'model_search';
 		$str = '<form name=search method="post" action="'.site_url('search'.$this->langurl).'">';
@@ -116,13 +115,13 @@ class Cache_model extends CI_Model{
 		}else{
 			$str .= '<input type="hidden" name="model" value="'.$model.'">';
 		}
-
+		
 		$str .= '<input type="text" class="stxt" value="'.lang('searchval').'" name="keyword" onclick="if(this.value==\''.lang('searchval').'\') this.value=\'\'" />
  				<input class="sbtn" type="submit" value="'.lang('search').'">
 			</form>';
 		return $str;
 	}
-
+	
 	function loadCategoryChild(&$cache,$arr,$pid,$tf=FALSE,$num=0,$isshow=TRUE){
 		if($isshow&&isset($arr[$pid])){
 			$sub = $tf?' class="sub" ':'';
@@ -138,8 +137,8 @@ class Cache_model extends CI_Model{
 			$cache .= '</li>';
 		}
 	}
-
-
+	
+	
 	function loadCategory($num=0){
 		$cachestr = 'category_'.$this->currentLang.'_'.$num;
 		$cache = $this->CI->cache->get($cachestr);
@@ -170,7 +169,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadCategoryArr(){
 		$cachestr = 'category_'.$this->currentLang.'_arr';
 		$cache = $this->CI->cache->get($cachestr);
@@ -181,7 +180,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadCategoryByDir($dir){
 		$cachestr = 'category_'.$this->currentLang.'_single_'.$dir;
 		$cache = $this->CI->cache->get($cachestr);
@@ -198,7 +197,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadSlide($type){
 		$cachestr = 'slide_'.$this->currentLang.'_'.$type;
 		$cache = $this->CI->cache->get($cachestr);
@@ -215,7 +214,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache?$cache:array();
 	}
-
+	
 	function loadModel($model,$categoryid,$order,$num,$recommend){
 		$cachestr = $model.'_'.$this->currentLang.'_'.$categoryid.'_'.$order.'_'.$num.'_'.$recommend;
 		$cache = $this->CI->cache->get($cachestr);
@@ -233,7 +232,7 @@ class Cache_model extends CI_Model{
 				$categoryidarr = mult_to_idarr($tmpCategory);
 				$datawhere['category'] = $categoryidarr;
 			}
-
+			
 			$orderstr = '';
 			switch($order){
 				case 'puttime':
@@ -249,14 +248,14 @@ class Cache_model extends CI_Model{
 					$orderstr = 'listorder,id desc';
 					break;
 			}
-
+			
 			$data = $this->CI->Data_model->getData($datawhere,$orderstr,$num,0,$model);
 			$cache = $this->handleModelData($data);
 			$this->CI->cache->save($cachestr,$cache,86400);
 		}
 		return $cache;
 	}
-
+	
 	function loadRecommend($recommendid,$order,$num){
 		$cachestr = 'recommend_'.$this->currentLang.'_'.$recommendid.'_'.$order.'_'.$num;
 		$cache = $this->CI->cache->get($cachestr);
@@ -288,7 +287,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadFragment($varname){
 		$cachestr = 'fragment_'.$this->currentLang.'_'.$varname;
 		$cache = $this->CI->cache->get($cachestr);
@@ -299,7 +298,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache?$cache:'';
 	}
-
+	
 	function loadTags($num=0){
 		$cachestr = 'tags_'.$this->currentLang.'_'.$num;
 		$cache = $this->CI->cache->get($cachestr);
@@ -315,7 +314,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadTagsByIds($ids){
 		if($ids==''){return FALSE;}
 		$cachestr = 'x6cmstags/tags_'.$this->currentLang.'_'.$ids;
@@ -335,7 +334,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadTagsData($model,$tags,$num){
 		$cachestr = 'x6cmstags/tags_'.$this->currentLang.'_'.$model.'_'.$tags['id'].'_'.$num;
 		$path = $this->CI->config->item('cache_path');
@@ -351,7 +350,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadLink($type=0){
 		$cachestr = 'link_'.$this->currentLang.'_'.$type;
 		$cache = $this->CI->cache->get($cachestr);
@@ -372,7 +371,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache?$cache:array();
 	}
-
+	
 	function loadOnline(){
 		$cachestr = 'online_'.$this->currentLang;
 		$cache = $this->CI->cache->get($cachestr);
@@ -382,7 +381,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadLocation($category,$code=''){
 		$cachestr = 'category_'.$this->currentLang.'_path_'.$category['id'];
 		$cache = $this->CI->cache->get($cachestr);
@@ -396,7 +395,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadThisCategory($category){
 		$cachestr = 'category_'.$this->currentLang.'_left_'.$category['top']['id'];
 		$cache = $this->CI->cache->get($cachestr);
@@ -407,7 +406,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadAllCategory(){
 		$cachestr = 'category_'.$this->currentLang.'_all';
 		$cache = $this->CI->cache->get($cachestr);
@@ -418,7 +417,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadDetail($category,$id){
 		$cachestr = $category['model'].'/detail_'.$this->currentLang.'_'.$category['dir'].'_'.$id;
 		$path = $this->CI->config->item('cache_path');
@@ -440,7 +439,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache;
 	}
-
+	
 	function loadRelated($detail,$num=5){
 		$cachestr = $detail['categorymodel'].'/related_'.$this->defaultLang.'_'.$detail['categorymodel'].'_'.$detail['id'].'_'.$num;
 		$path = $this->CI->config->item('cache_path');
@@ -448,15 +447,15 @@ class Cache_model extends CI_Model{
 			mkdir($path.$detail['model']);
 		}
 		$cache = $this->CI->cache->get($cachestr);
-
+		
 		if(!$cache){
 			if(!$detail['tags']){return array();}
 			$this->CI->db->where('lang',$this->defaultLang);
 			$this->CI->db->where('id !=',$detail['id']);
-
+			
 			$tagsidarr = explode(',',$detail['tags']);
 			$findinsetarr = array();
-
+			
 			foreach($tagsidarr as $tagid){
 				$findinsetarr[] = " FIND_IN_SET(".$tagid.",tags)";
 			}
@@ -470,7 +469,7 @@ class Cache_model extends CI_Model{
 		}
 		return $cache?$cache:array();
 	}
-
+	
 	function handleCategoryData($data){
 		$list = array();
 		foreach($data as $item){
@@ -488,7 +487,7 @@ class Cache_model extends CI_Model{
 		unset($data,$item);
 		return $list;
 	}
-
+	
 	function handleModelData($data){
 		$this->CI->load->model('Tags_model');
 		$list = array();
@@ -518,7 +517,7 @@ class Cache_model extends CI_Model{
 		}
 		return $list;
 	}
-
+	
 	function loadKeywords(){
 		$cachestr = 'keywords_'.$this->currentLang;
 		$data = $this->CI->cache->get($cachestr);
@@ -535,13 +534,13 @@ class Cache_model extends CI_Model{
 		}
 		return $data;
 	}
-
-
-
+	
+	
+	
 	function delete($key){
 		$this->CI->cache->delete($key);
 	}
-
+	
 	function deleteSome($keystr){
 		$cacheinfo = $this->CI->cache->cache_info();
 		$cacheArr = array();
@@ -552,7 +551,7 @@ class Cache_model extends CI_Model{
 			}
 		}
 	}
-
+	
 	function clean(){
 		$this->CI->cache->clean();
 	}

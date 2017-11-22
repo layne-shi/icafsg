@@ -8,6 +8,7 @@
 <meta name="author" content="<?=lang('system_author');?>" />
 <script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/public.js"></script>
+<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/swfobject.js"></script>
 <link rel="stylesheet" type="text/css" href="<?=$config['site_templateurl'];?>/css/style.css" />
 <link rel="shortcut icon" href="<?=x6cms_path('images/favicon.ico');?>" />
 <script type="text/javascript">
@@ -38,28 +39,19 @@ lang.validform = {
 </script>
 </head>
 <body>
+<div style="width:120px; height:120px; position:absolute; right:30px; padding-top:50px; z-index:-1;"><img src="<?=$config['site_templateurl'];?>/images/weixin.jpg" width="120" height="120" alt="官方微信公众平台"></div>
 <div class="header">
-	<div class="logo">
-		<a href="<?=base_url($langurl);?>"><img src="<?=$config['site_logo']?>"></a>	
-	</div>
-	<div class="headerr">
-		<ul class="nav_lang">
-		<?php $tmpData = x6cms_lang();?>
-		<?php foreach($tmpData as $item):?>
-		<li><a href="<?=$item['url']?>"><img src="<?=$item['thumb']?>" alt="<?=$item['title']?>"/></a></li>
-		<?php endforeach;?>
-		<?php unset($tmpData,$item);?>
-		</ul>
-		<ul class="nav_top">
-		<?php $tmpData = x6cms_navigation(4);?>
-		<?php foreach($tmpData as $item):?>
-		<li><a href="<?=$item['url']?>" <?=$item['color']?>><?=$item['title']?></a></li>
-		<?php endforeach;?>
-		<?php unset($tmpData,$item);?>
-		</ul>
-		<div class="search">
-			<?=x6cms_search()?>
+	<div class="wrap clearfix">
+		<div class="logo">
+			<a href="<?=base_url($langurl);?>"><img src="<?=$config['site_templateurl'];?>/images/logo.jpg"></a>	
+		</div>
+		<div class="headerr">
+			<div class="search">
+				<?=x6cms_search()?>
+			</div>
 		</div>
 	</div>
-	<div class="nav"><?=x6cms_category();?></div>
+	<div class="nav">
+		<div class="wrap"><?=x6cms_category();?></div>
+	</div>
 </div>
