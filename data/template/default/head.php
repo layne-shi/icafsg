@@ -8,34 +8,42 @@
 <meta name="author" content="<?=lang('system_author');?>" />
 <script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/jquery.min.js"></script>
 <script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/public.js"></script>
+<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/fns.js"></script>
 <script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/swfobject.js"></script>
+<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/jquery.KinSlideshow-1.2.1.min.js"></script>
+
 <link rel="stylesheet" type="text/css" href="<?=$config['site_templateurl'];?>/css/style.css" />
+<link rel="stylesheet" type="text/css" href="<?=$config['site_templateurl'];?>/css/gd.css" />
 <link rel="shortcut icon" href="<?=x6cms_path('images/favicon.ico');?>" />
 <script type="text/javascript">
-var lang = {};
-lang.validform = {
-		'onlyform':'<?=lang('valid_onlyform')?>',
-		'required':{
-			'text':'* <?=lang('valid_required_text')?>',
-			'checkmultiple':'* <?=lang('valid_required_checkmultiple')?>',
-			'select':'* <?=lang('valid_required_select')?>',
-			'checkbox':'*  <?=lang('valid_required_checkbox')?>'
-		},
-		'min':{
-			'text':'* <?=lang('valid_min_text')?>',
-			'text1':'<?=lang('valid_min_text1')?> '
-		},
-		'max':{
-			'text':'* <?=lang('valid_max_text')?>',
-			'text1':'<?=lang('valid_max_text1')?>'
-		},
-		'email':{
-			'text':'* <?=lang('valid_email_text')?>'
-		},
-		'equals':{
-			'text':'* <?=lang('valid_equals_text')?>'
-		}
-};
+	var lang = {};
+	lang.validform = {
+			'onlyform':'<?=lang('valid_onlyform')?>',
+			'required':{
+				'text':'* <?=lang('valid_required_text')?>',
+				'checkmultiple':'* <?=lang('valid_required_checkmultiple')?>',
+				'select':'* <?=lang('valid_required_select')?>',
+				'checkbox':'*  <?=lang('valid_required_checkbox')?>'
+			},
+			'min':{
+				'text':'* <?=lang('valid_min_text')?>',
+				'text1':'<?=lang('valid_min_text1')?> '
+			},
+			'max':{
+				'text':'* <?=lang('valid_max_text')?>',
+				'text1':'<?=lang('valid_max_text1')?>'
+			},
+			'email':{
+				'text':'* <?=lang('valid_email_text')?>'
+			},
+			'equals':{
+				'text':'* <?=lang('valid_equals_text')?>'
+			}
+	};
+
+	$(function(){
+		$("#KinSlideshow").KinSlideshow();
+	});
 </script>
 </head>
 <body>
