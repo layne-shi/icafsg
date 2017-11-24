@@ -15,7 +15,7 @@ class Category extends CI_Controller {
 		$this->langurl = $this->Lang_model->loadLangUrl($this->editlang);
 		$this->modelarr = mult_to_single($this->Data_model->getData(array('status'=>1),'listorder',0,0,'model'),'varname');
 	}
-	
+
 	public function index(){
 		$this->Purview_model->checkPurview($this->tablefunc);
 		$categoryarr = $this->Data_model->getData(array('lang'=>$this->editlang),'listorder');
@@ -54,11 +54,11 @@ class Category extends CI_Controller {
 				'modelarr'=>$this->modelarr,
 				'liststr'=>$liststr,
 				'funcstr'=>$funcstr
-				
+
 		);
 		$this->load->view($this->tablefunc,$res);
 	}
-	
+
 	public function add(){
 		$this->Purview_model->checkPurviewAjax($this->tablefunc,'add');
 		$post = $this->input->post(NULL,TRUE);
@@ -121,7 +121,7 @@ class Category extends CI_Controller {
 					$pview['rht'] = $pview['lft']+1;
 				}
 				$betweeval = $view['rht']-$view['lft'];
-				
+
 				$alldata = $this->Data_model->getData(array('lang'=>$this->editlang,'lft >='=>$view['lft'],'rht <='=>$view['rht']),'lft');
 				$ids = array();
 				foreach($alldata as $item){
@@ -143,11 +143,11 @@ class Category extends CI_Controller {
 					$this->db->set('lft', 'lft+'.$betweeval.'+1', FALSE);
 					$this->db->where(array('lft >'=>$pview['rht'],'lft <'=>$view['lft'],'lang'=>$this->editlang));
 					$this->db->update('category');
-					
+
 					$this->db->set('rht', 'rht+'.$betweeval.'+1', FALSE);
 					$this->db->where(array('rht >='=>$pview['rht'],'rht <'=>$view['lft'],'lang'=>$this->editlang));
 					$this->db->update('category');
-					
+
 					$val = $view['lft']-$pview['rht'];
 					$this->db->set('rht', 'rht-'.$val, FALSE);
 					$this->db->set('lft', 'lft-'.$val, FALSE);
@@ -180,7 +180,7 @@ class Category extends CI_Controller {
 			}
 		}
 	}
-	
+
 	public function del(){
 		$this->Purview_model->checkPurviewAjax($this->tablefunc,'del');
 		$id = $this->input->post('optid',TRUE);
@@ -202,7 +202,7 @@ class Category extends CI_Controller {
 			show_jsonmsg(203);
 		}
 	}
-	
+
 	public function order(){
 		$this->Purview_model->checkPurviewAjax($this->tablefunc,'order');
 		$data = $this->Data_model->listorder($this->input->post('ids',true),$this->input->post('listorder',true),'listorder');
@@ -212,4 +212,3 @@ class Category extends CI_Controller {
 }
 
 
- 

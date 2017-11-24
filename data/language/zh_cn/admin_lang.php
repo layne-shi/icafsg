@@ -275,6 +275,8 @@ $lang['model_hr'] = '招聘';
 $lang['model_down'] = '下载';
 $lang['model_page'] = '单页';
 $lang['model_guestbook'] = '留言';
+$lang['model_hello'] = '你好';
+$lang['model_artday'] = '艺术节';
 
 /*category*/
 $lang['category_name'] = '栏目名称';
