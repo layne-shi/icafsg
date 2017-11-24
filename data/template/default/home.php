@@ -210,23 +210,23 @@
 
 			<div class="inleft09">
 				<div class="title0">
-					<a href="#">
+					<a href="<?=site_url('category/festivalcorrelation'.$langurl)?>">
 						<img src="data/template/default/images/tit09.jpg" width="286" height="32">
 					</a>
 				</div>
 				<div class="related">
 					<ul>
 						<li>
-							<a href="25.aspx" class="sg1">藝術節在新加坡</a>
+							<a href="<?=site_url('category/singapore'.$langurl)?>" class="sg1">藝術節在新加坡</a>
 						</li>
 						<li>
-							<a href="26.aspx" class="sg2">藝術節在首爾</a>
+							<a href="<?=site_url('category/seoul'.$langurl)?>" class="sg2">藝術節在首爾</a>
 						</li>
 						<li>
-							<a href="27.aspx" class="sg3">藝術節在台北</a>
+							<a href="<?=site_url('category/taipei'.$langurl)?>" class="sg3">藝術節在台北</a>
 						</li>
 						<li>
-							<a href="#" class="sg5">更多</a>
+							<a href="<?=site_url('category/festivalcorrelation'.$langurl)?>" class="sg5">更多</a>
 						</li>
 					</ul>
 				</div>
