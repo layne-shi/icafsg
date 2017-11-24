@@ -4,8 +4,10 @@
 <div id="header" class="header" >
 <table width="100%" height="80" border="0" cellpadding="0" cellspacing="1">
 	<tr><td rowspan="2" width="150"><div class="logo"></div></td>
-	<td height="40"><div class="nav">&nbsp;&nbsp;&nbsp;&nbsp;<?=lang('welcome')?><?=$username?><i>|</i> [<?=lang($varname)?>]  <i>|</i> [<a href="<?=site_aurl('main/logout')?>" target="_top"><?=lang('logout')?></a>]</div></td>
-	<td align="right"></td>
+	<td height="40"><div class="nav">&nbsp;&nbsp;&nbsp;&nbsp;<?=lang('welcome')?><?=$username?><i>|</i> [<?=lang($varname)?>]  <i>|</i> [<a href="<?=site_aurl('main/logout')?>" target="_top"><?=lang('logout')?></a>] <i style="padding:0 10px;">|</i><a href="<?=base_url()?>" target="_blank"><?=lang('browse_site')?></a></div></td>
+	<td align="right">
+
+	</td>
 	</tr>
 	<tr>
 		<td valign="bottom"><div class="topmenu"><ul>
