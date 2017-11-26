@@ -1,33 +1,45 @@
 <?php $this->load->view($config['site_template'].'/head');?>
-<div class="main">
-	<div class="mainleft">
-		<div class="lefttop">
-			<h3><?=$category['top']['name']?></h3>
-		</div>
-		<div class="leftmiddle">
-			<ul class="aboutnav">
-			<?php $tmpData = x6cms_thiscategory($category);?>
-			<?php foreach ($tmpData as $item): ?>
-			<li class="level<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
-			<?php endforeach; ?>
-			</ul>
-			<div class="contact">
-			<?=x6cms_fragment('contact')?>
-			</div>
-		</div>
-		<div class="leftbottom"></div>
+
+<div class="wrap main">
+	<div class="position-relative">		
+		<div class="long1"></div>
+		<div class="long2"></div>
+		<div class="long3"></div>
+		<div class="long4"></div>
 	</div>
-	<div class="mainright">
-		<div class="righttop"><?=x6cms_location($category,' > ');?></div>
-		<div class="rightmiddle">
-			<ul class="centerlist">
-				<?php foreach ($list as $key => $item): ?>
-				<li>[<a href="<?=$item['categoryurl']?>"><?=$item['categoryname']?></a>] <a href="<?=$item['url']?>" target="_blank"><?=$item['title']?></a><span><?=$item['puttime']?></span></li>
-				<?php endforeach; ?>
-			</ul>
-			<div class="page"><?=isset($pagestr)?$pagestr:''?></div>
+	<!-- slide ad start -->
+	<div class="slide-ad">
+		<div id="KinSlideshow" style="visibility:hidden;">
+		<?php $tmpData = x6cms_slide(2);?>
+		<?php foreach($tmpData as $item):?>
+		<a href="<?=$item['url']?>" target="_blank"><img src="<?=$item['thumb']?>" alt="<?=$item['title']?>" width="1000" height="353" /></a>
+		<?php endforeach;?>
+		<?php unset($tmpData,$item);?>
 		</div>
-		<div class="rightbottom"></div>
+	</div>
+	<!-- slide ad end -->
+	<!-- content -->
+	<div class="page-content">
+		<div class="project_bm">
+			<?php foreach ($list as $key => $item): ?>
+			<dl class="bm_ny clearfix">
+				<dd>
+					<a href="<?=$item['attrurl']?>" class="bm_tu">
+						<img src="<?=$item['thumb']?>" width="279" height="220">
+					</a>
+					<h4>
+						<a href="<?=$item['attrurl']?>"><?=$item['title']?></a>
+					</h4>
+					<div class="x_piao">
+						<a title="<?=$item['title']?>" href="<?=$item['attrurl']?>">
+							<img src="data/template/default/images/x_piao.jpg" width="89">
+						</a>
+					</div>
+				</dd>
+			</dl>
+			<?php endforeach; ?>
+		</div>
 	</div>
 </div>
+
 <?php $this->load->view($config['site_template'].'/foot');?>
