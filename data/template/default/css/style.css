@@ -131,6 +131,26 @@ h6 {
 
 /*==========================================================*/
 
+
+/* 距离 */
+
+.padding-20-65 {
+    padding: 20px 65px;
+}
+
+
+/*==========================================================*/
+
+
+/*对齐 */
+
+.text-align-center {
+    text-align: center!important;
+}
+
+
+/*==========================================================*/
+
 .header {
     margin: 0 auto;
     /* height: 248px; */
@@ -208,11 +228,19 @@ h6 {
     text-indent: 3px;
     border: none;
 }
+.stxt{    
+    width: 170px;
+    height: 22px;
+    line-height: 22px;
+    color: #696969;
+    background: #f3f3f3;
+}
 
 .sselect {
     border: none;
     background: #fff;
     padding: 2px;
+    visibility: hidden;
 }
 
 .sbtn,
@@ -670,36 +698,43 @@ dl.sm dd a.sp_tu h4 {
     width: 708px;
     overflow: hidden;
 }
+
 .inleft06 {
     float: left;
     height: 268px;
     width: 292px;
 }
+
 .inleft07 {
     float: left;
     height: 262px;
     width: 286px;
     padding-left: 6px;
 }
+
 .title02 {
     height: 32px;
     background: #e72f2f;
 }
+
 .inleft08 {
     float: left;
     height: 339px;
     width: 286px;
     padding-left: 6px;
 }
+
 .title03 {
     height: 32px;
     background: #51c443;
 }
+
 .inleft09 {
     float: left;
     height: 250px;
     width: 286px;
 }
+
 
 /*  */
 
@@ -720,54 +755,355 @@ dl.sm dd a.sp_tu h4 {
     background: url(../images/xian.jpg) repeat-x center bottom
 }
 
-.baodao{ height:225px;padding-left:9px; overflow:hidden}
-.baodao ul li{ height:88px; padding-top:10px;}
-.baodao ul li img{ border:2px solid #dddddd}
-.baodao ul li .bd_wen{ width:120px; height:88px; overflow:hidden; padding-left:7px;}
-.baodao ul li .bd_wen h5 { font-size: 12px;  font-weight:bold;line-height:16px;}
-.baodao ul li .bd_wen h5 a{color:#d11d1a;}
-.baodao ul li .bd_wen h5 a:hover{ color:#000}
-.baodao ul li .bd_wen p{ line-height:16px; padding-top:5px; font-size:12px}
-.baodao ul li .bd_wen p a{ color:#666666}
-.baodao ul li .bd_wen p a:hover{ color:#000}
+.baodao {
+    height: 225px;
+    padding-left: 9px;
+    overflow: hidden
+}
 
+.baodao ul li {
+    height: 88px;
+    padding-top: 10px;
+}
 
-.cpshow{ height:280px; overflow:hidden; padding-top:14px}
-.cpshow ul li{ height:68px; padding-top:1px;}
-.cpshow ul li a.showlist{ display:block; height:60px; width:265px; padding-top:6px;  padding-left:6px; padding-right:7px; background:url(../images/showxian.jpg) center top  repeat-x; overflow:hidden}
-.cpshow ul li a.showlist img{ float:left; width:78px;}
-.cpshow ul li .bd_wen{ width:167px; height:50px; overflow:hidden; padding-left:8px; float:left}
-.cpshow ul li a.showlist  h6 { font-size: 12px; line-height:16px; color:#d11d1a;}
-.cpshow ul li a.showlist  p{ line-height:16px; padding-top:3px; font-size:12px;color:#666666}
+.baodao ul li img {
+    border: 2px solid #dddddd
+}
 
-.cpshow ul li a.showlist:hover{ background:url(../images/showbj.jpg) no-repeat center center}
-.cpshow ul li a.showlist:hover  h6 { font-size: 12px; line-height:16px; color:#d11d1a; font-weight:bold}
-.cpshow ul li a.showlist:hover  p{ line-height:16px; padding-top:3px; font-size:12px;color:#333333}
+.baodao ul li .bd_wen {
+    width: 120px;
+    height: 88px;
+    overflow: hidden;
+    padding-left: 7px;
+}
 
+.baodao ul li .bd_wen h5 {
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 16px;
+}
 
-.related{ height:210px; padding-top:9px}
-.related ul li{ height:41px; margin-top:1px;}
-.related ul li a{ float:left; height:41px; width:285px; text-indent:-10000px;}
+.baodao ul li .bd_wen h5 a {
+    color: #d11d1a;
+}
 
-.related ul li a.sg1{ background:url(../images/sg1_01.jpg) no-repeat}
-.related ul li a.sg2{ background:url(../images/sg2_01.jpg) no-repeat}
-.related ul li a.sg3{ background:url(../images/sg3_01.jpg) no-repeat}
-.related ul li a.sg4{ background:url(../images/sg4_01.jpg) no-repeat}
-.related ul li a.sg5{ background:url(../images/sg5_01.jpg) no-repeat}
+.baodao ul li .bd_wen h5 a:hover {
+    color: #000
+}
 
-.related ul li a:hover.sg1{ background:url(../images/sg1_02.jpg) no-repeat}
-.related ul li a:hover.sg2{ background:url(../images/sg2_02.jpg) no-repeat}
-.related ul li a:hover.sg3{ background:url(../images/sg3_02.jpg) no-repeat}
-.related ul li a:hover.sg4{ background:url(../images/sg4_02.jpg) no-repeat}
+.baodao ul li .bd_wen p {
+    line-height: 16px;
+    padding-top: 5px;
+    font-size: 12px
+}
+
+.baodao ul li .bd_wen p a {
+    color: #666666
+}
+
+.baodao ul li .bd_wen p a:hover {
+    color: #000
+}
+
+.cpshow {
+    height: 280px;
+    overflow: hidden;
+    padding-top: 14px
+}
+
+.cpshow ul li {
+    height: 68px;
+    padding-top: 1px;
+}
+
+.cpshow ul li a.showlist {
+    display: block;
+    height: 60px;
+    width: 265px;
+    padding-top: 6px;
+    padding-left: 6px;
+    padding-right: 7px;
+    background: url(../images/showxian.jpg) center top repeat-x;
+    overflow: hidden
+}
+
+.cpshow ul li a.showlist img {
+    float: left;
+    width: 78px;
+}
+
+.cpshow ul li .bd_wen {
+    width: 167px;
+    height: 50px;
+    overflow: hidden;
+    padding-left: 8px;
+    float: left
+}
+
+.cpshow ul li a.showlist h6 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #d11d1a;
+}
+
+.cpshow ul li a.showlist p {
+    line-height: 16px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #666666
+}
+
+.cpshow ul li a.showlist:hover {
+    background: url(../images/showbj.jpg) no-repeat center center
+}
+
+.cpshow ul li a.showlist:hover h6 {
+    font-size: 12px;
+    line-height: 16px;
+    color: #d11d1a;
+    font-weight: bold
+}
+
+.cpshow ul li a.showlist:hover p {
+    line-height: 16px;
+    padding-top: 3px;
+    font-size: 12px;
+    color: #333333
+}
+
+.related {
+    height: 210px;
+    padding-top: 9px
+}
+
+.related ul li {
+    height: 41px;
+    margin-top: 1px;
+}
+
+.related ul li a {
+    float: left;
+    height: 41px;
+    width: 285px;
+    text-indent: -10000px;
+}
+
+.related ul li a.sg1 {
+    background: url(../images/sg1_01.jpg) no-repeat
+}
+
+.related ul li a.sg2 {
+    background: url(../images/sg2_01.jpg) no-repeat
+}
+
+.related ul li a.sg3 {
+    background: url(../images/sg3_01.jpg) no-repeat
+}
+
+.related ul li a.sg4 {
+    background: url(../images/sg4_01.jpg) no-repeat
+}
+
+.related ul li a.sg5 {
+    background: url(../images/sg5_01.jpg) no-repeat
+}
+
+.related ul li a:hover.sg1 {
+    background: url(../images/sg1_02.jpg) no-repeat
+}
+
+.related ul li a:hover.sg2 {
+    background: url(../images/sg2_02.jpg) no-repeat
+}
+
+.related ul li a:hover.sg3 {
+    background: url(../images/sg3_02.jpg) no-repeat
+}
+
+.related ul li a:hover.sg4 {
+    background: url(../images/sg4_02.jpg) no-repeat
+}
+
 
 /* 版权 */
-.copyright{ line-height:21px; padding-bottom:35px; padding-top:5px}
-.copyright .subnav{color:#3d4547; text-align:center}
-.copyright .subnav a{color:#3d4547; }
-.copyright .subnav a:hover{ color:#f00}
-.copyright p{ text-align:center}
-.copyright span{ color:#3d4547}
-.copyright span a{color:#3d4547}
-.copyright span a:hover{ color:#f00}
+
+.copyright {
+    line-height: 21px;
+    padding-bottom: 35px;
+    padding-top: 5px
+}
+
+.copyright .subnav {
+    color: #3d4547;
+    text-align: center
+}
+
+.copyright .subnav a {
+    color: #3d4547;
+}
+
+.copyright .subnav a:hover {
+    color: #f00
+}
+
+.copyright p {
+    text-align: center
+}
+
+.copyright span {
+    color: #3d4547
+}
+
+.copyright span a {
+    color: #3d4547
+}
+
+.copyright span a:hover {
+    color: #f00
+}
+
 
 /* ***************************************************** */
+
+.page-content h1 {
+    padding: 10px;
+}
+
+.mainleft {
+    width: 245px;
+    float: left;
+}
+
+.mainright {
+    width: 754px;
+    float: left;
+}
+
+
+/* 二面页面左边 */
+
+.mainleft .leftsidebar {
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.mainleft .leftsidebar {
+    padding-bottom: 6px;
+    padding-top: 27px;
+    padding-bottom: 10px;
+}
+
+.mainleft .leftsidebar li{
+    padding-top: 6px;
+}
+.mainleft .leftsidebar .menu_1 a {
+    display: block;
+    width: 205px;
+    height: 35px;
+    padding-top: 16px;
+    padding-left: 38px;
+    background: #ebebeb;
+    font-family: "微软雅黑", "宋体";
+    font-size: 13px;
+    color: #282827;
+}
+
+.mainleft .leftsidebar .menu_1 a:hover {
+    background: url(../images/menu03.jpg) no-repeat
+}
+
+.mainleft .leftsidebar .menu_2 {
+    width: 198px;
+    height: 48px;
+    border-bottom: 1px dashed #9b9b9b;
+    margin-left: 32px;
+}
+.mainleft .leftsidebar .menu_2 a {
+    width: 198px;
+    color: #444443;
+    font-family: "微软雅黑","宋体";
+    font-size: 12px;
+    line-height: 48px;
+    display: block;
+}
+
+
+.leftpic {
+    width: 243px;
+    height: auto;
+    padding-top: 15px;
+    text-align: center
+}
+
+#weizhi {
+    height: 33px;
+    overflow: hidden;
+    line-height: 33px;
+    text-indent: 30px;
+    background: url(../images/weipiao.jpg) no-repeat 5px 11px;
+}
+
+.maincen2 {
+    padding: 0px 10px 0px 25px;
+}
+
+.zhanshi {
+    padding: 22px 0px 0px 0px;
+}
+
+.zhanshi ul li {
+    float: left;
+    width: 327px;
+    padding-top: 8px;
+    padding-left: 15px;
+    padding-right: 10px;
+}
+
+.zhanshi ul li .tu_fuwu {
+    padding: 3px;
+    background: #dddddd;
+}
+
+.zhanshi ul li .wen_fuwu {
+    padding-top: 18px;
+    padding-bottom: 18px;
+    text-align: center;
+    color: #5c5c5c;
+    font-size: 14px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.zhanshi ul li .wen_fuwu a {
+    color: #666666;
+}
+
+.zhanshi ul li .wen_fuwu a:hover {
+    color: #f00;
+}
+
+
+
+/* 报名下载 */
+.project_bm{ width:985px; float:left; padding-top:15px; padding-left:15px}
+
+dl.bm_ny {float:left}
+dl.bm_ny dd {float: left; width:294px; height:294px;  background:#e8e8e8; overflow:hidden; margin-left:15px; margin-right:15px; margin-top:25px }
+dl.bm_ny dd .bm_tu{ padding-left:8px; padding-top:8px; padding-bottom:9px; display:block; background:url(../images/x_xian.jpg) repeat-x center bottom}
+dl.bm_ny dd  h4 {font-size: 14px; color: #666666;  text-align:center; padding-top:8px; height:20px}
+dl.bm_ny dd .x_piao{ height:26px; padding-left:196px;}
+
+
+/* 搜索 */
+.searchlist{
+    padding: 20px 65px;
+}
+.searchlist li{border-bottom:1px dashed #a5a5a5;height:36px; line-height:36px; background:url(../images/news-dot.gif) no-repeat 2px center; text-indent:19px;color:#656464;}
+.searchlist li a{color:#656464;}
+.searchlist li span{ margin-left:10px; display:inline;color:#999;}
+
+/* 分页 */
+.page{text-align:center;line-height:24px;padding:0 0 20px 20px;}
+.page a{padding:0 3px;color:#999;}
+.page span{padding:0 3px;color:#f90;font-weight:900;}
