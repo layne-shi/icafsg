@@ -399,3 +399,10 @@ $lang['optimizeok'] = '优化成功';
 $lang['upgradeok'] = '升级成功';
 $lang['backuptime'] = '备份时间';
 
+
+/* 艺术世界模块 */
+$lang['func_art'] = '艺术世界';         // 一级菜单
+$lang['func_art_man'] = '男艺术家';     // 二级菜单
+$lang['func_art_woman'] = '女艺术家';   // 二级菜单
+
+
