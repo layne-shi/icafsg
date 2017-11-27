@@ -275,6 +275,8 @@ $lang['model_hr'] = '招聘';
 $lang['model_down'] = '下载';
 $lang['model_page'] = '单页';
 $lang['model_guestbook'] = '留言';
+$lang['model_hello'] = '你好';
+$lang['model_artday'] = '艺术节';
 
 /*category*/
 $lang['category_name'] = '栏目名称';
@@ -396,4 +398,11 @@ $lang['backupok'] = '备份成功';
 $lang['optimizeok'] = '优化成功';
 $lang['upgradeok'] = '升级成功';
 $lang['backuptime'] = '备份时间';
+
+
+/* 艺术世界模块 */
+$lang['func_art'] = '艺术世界';         // 一级菜单
+$lang['func_art_man'] = '男艺术家';     // 二级菜单
+$lang['func_art_woman'] = '女艺术家';   // 二级菜单
+
 

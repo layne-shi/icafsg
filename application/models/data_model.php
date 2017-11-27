@@ -5,11 +5,11 @@ class Data_model extends CI_Model
 	function __construct(){
   		parent::__construct();
 	}
-	
+
 	function setTable($table){
 		$this->table = $table;
 	}
-	
+
 	function setWhere($getwhere){
 		if(is_array($getwhere)){
 			foreach($getwhere as $key=>$where){
@@ -46,7 +46,7 @@ class Data_model extends CI_Model
 		}
 		$this->db->update($table,$data);
 	}
-	
+
 	function delData($ids,$table=''){
 		$table = $table==''?$this->table:$table;
 		if(is_array($ids)){
@@ -71,7 +71,7 @@ class Data_model extends CI_Model
 		$data = $this->db->get($table)->result_array();
 		return $data;
 	}
-	
+
 	function getSingle($getwhere="",$table=''){
 		$table = $table==''?$this->table:$table;
 		if($getwhere){
@@ -88,7 +88,7 @@ class Data_model extends CI_Model
 		}
 		return $this->db->count_all_results($table);
 	}
-	
+
 	function setHits($id,$table=''){
 		$table = $table==''?$this->table:$table;
 		$this->db->where('id',$id);
@@ -96,7 +96,7 @@ class Data_model extends CI_Model
 		$this->db->set('realhits', 'realhits+1',FALSE);
 		$this->db->update($table);
 	}
-	
+
 	function listOrder($ids,$res,$order='',$table=''){
 		$table = $table==''?$this->table:$table;
 		$num = count($ids);
@@ -105,7 +105,7 @@ class Data_model extends CI_Model
 			$data[] = array('id'=>$ids[$i],'listorder'=>$res[$i]);
 		}
 		$this->db->update_batch($table,$data,'id');
-		
+
 		if($num>0){
 			$this->db->where_in('id',$ids);
 			if($order){
@@ -114,7 +114,7 @@ class Data_model extends CI_Model
 			$data = $this->db->get($table)->result_array();
 			return $data;
 		}
-		
+
 		return array();
 	}
 }
