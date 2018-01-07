@@ -127,6 +127,9 @@ h6 {
 .position-relative {
     position: relative;
 }
+.position-fixed{
+    position: fixed;
+}
 
 
 /*==========================================================*/
@@ -1107,3 +1110,11 @@ dl.bm_ny dd .x_piao{ height:26px; padding-left:196px;}
 .page{text-align:center;line-height:24px;padding:0 0 20px 20px;}
 .page a{padding:0 3px;color:#999;}
 .page span{padding:0 3px;color:#f90;font-weight:900;}
+
+/* 右侧浮动 */
+.right-float{
+    top: 150px;
+}
+.right-float img{
+    border:none;
+}
