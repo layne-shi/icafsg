@@ -1,11 +1,26 @@
 ﻿官网+报名
-后台：http://localhost/icafsg/icafsg/install/index.php
+后台：http://122.14.213.55:8000/index.php?/admin/login
+前台：http://122.14.213.55:8000/index.php
 
 https://github.com/layne-shi/icafsg
-hahha
+
 
 ok 
 
 (1) remote fetch后，
 (2) 先 merge，
 (3) 然后再commit
+
+
+提供给客户的帐号和密码：
+
+帐号：icafsg
+密码：icafsg
+
+
+
+开发时的帐号和密码：（不提供给客户）
+帐号：admin
+密码：qweqwe11
+
+

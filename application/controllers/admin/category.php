@@ -82,6 +82,12 @@ class Category extends CI_Controller {
 			}
 			$data['rht'] = $data['lft']+1;
 			$data['lang'] = $this->editlang;
+
+            if (empty($data['pagesize']))
+            {
+                $data['pagesize'] = 0;
+            }
+
 			$this->Data_model->addData($data);
 			$this->Cache_model->deleteSome($this->tablefunc.'_'.$this->editlang);
 			show_jsonmsg(array('status'=>205));
@@ -107,6 +113,7 @@ class Category extends CI_Controller {
 	public function edit(){
 		$this->Purview_model->checkPurviewAjax($this->tablefunc,'edit');
 		$post = $this->input->post(NULL,TRUE);
+        $post['content'] = $_POST['content'];
 		if($post['id']&&$post['action']==site_aurl($this->tablefunc)){
 			if($this->Data_model->getSingle(array('lang'=>$this->editlang,'dir'=>$post['dir'],'id !='=>$post['id']))){
 				show_jsonmsg(array('status'=>206));

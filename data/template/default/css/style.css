@@ -1018,6 +1018,10 @@ dl.sm dd a.sp_tu h4 {
     background: url(../images/menu03.jpg) no-repeat
 }
 
+.mainleft .leftsidebar .menu_1 a.guo {
+    background: url(../images/menu03.jpg) no-repeat;
+}
+
 .mainleft .leftsidebar .menu_2 {
     width: 198px;
     height: 48px;
@@ -1059,15 +1063,18 @@ dl.sm dd a.sp_tu h4 {
 
 .zhanshi ul li {
     float: left;
-    width: 327px;
+/*     width: 327px; */
     padding-top: 8px;
     padding-left: 15px;
     padding-right: 10px;
 }
 
 .zhanshi ul li .tu_fuwu {
-    padding: 3px;
     background: #dddddd;
+    background: url(../images/team_de.jpg) no-repeat;
+    display: block;
+    width: 164px;
+    padding: 11px 12px 10px 11px;
 }
 
 .zhanshi ul li .wen_fuwu {
@@ -1120,4 +1127,12 @@ dl.bm_ny dd .x_piao{ height:26px; padding-left:196px;}
 }
 .right-float img{
     border:none;
+}
+
+
+ul.sm_ny li {
+    float: left;
+    padding-top: 42px;
+    padding-right: 8px;
+    padding-left: 8px;
 }

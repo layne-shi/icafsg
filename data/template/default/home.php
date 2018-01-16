@@ -1,6 +1,6 @@
 <?php $this->load->view($config['site_template'].'/head');?>
 <div class="wrap main">
-	<div class="position-relative">		
+	<div class="position-relative">
 		<div class="long1"></div>
 		<div class="long2"></div>
 		<div class="long3"></div>
@@ -29,19 +29,19 @@
 						</a>
 					</div>
 					<div class="clearfix">
-						<div class="intr_left">						
+						<div class="intr_left">
 							<?=x6cms_fragment('index_chinest_festival')?>
 						</div>
 						<div class="intr_right">
 							<div class="intr_right01"><?=x6cms_fragment('index_chinest_festival_title')?></div>
-							<div class="intr_right02"><?=x6cms_fragment('index_chinest_festival_content')?></div> 					
+							<div class="intr_right02"><?=x6cms_fragment('index_chinest_festival_content')?></div>
 						</div>
 					</div>
 				</div>
 
 				<div class="inleft02">
 				<div class="title"><a href="<?=site_url('category/artscouncil'.$langurl)?>"><img src="data/template/default/images/tit02.jpg" width="282" height="33"></a></div>
-				<div class="inle_news">   
+				<div class="inle_news">
 					<ul>
 						<?php $tmpData = x6cms_modellist('article',28,'default',5,0);?>
 						<?php foreach($tmpData as $item):?>
@@ -60,14 +60,14 @@
 						<?php foreach($tmpData as $item):?>
 						<dd><a title="<?=$item['title']?>" href="<?=$item['url']?>" class="sp_tu"><img src="<?=$item['thumb']?>" width="188" height="108"><h4><?=$item['title']?></h4></a></dd>
 						<?php endforeach;?>
-					</dl>			
-				</div> 
+					</dl>
+				</div>
 			</div>
 
 			<div class="inleft04">
 				<div class="title">
 					<a href="<?=site_url('category/specialshow'.$langurl)?>"><img src="data/template/default/images/tit04.jpg" width="707" height="33"></a>
-				</div>	
+				</div>
 				<div id="slider">
 					<div class="buttons">
 						<span class="prev">prev</span>
@@ -99,13 +99,13 @@
 						</div>
 					</div>
 				</div>
-								
-			</div>	
+
+			</div>
 
 			<div class="inleft05">
 				<div class="title">
 					<a href="<?=site_url('category/professorclass'.$langurl)?>"><img src="data/template/default/images/tit05.jpg" width="707" height="33"></a>
-				</div>	
+				</div>
 				<div id="slider">
 					<div class="buttons">
 						<span class="prev">prev</span>
@@ -137,8 +137,8 @@
 						</div>
 					</div>
 				</div>
-								
-			</div>		
+
+			</div>
 
 		</div>
 		<!-- right -->
@@ -241,4 +241,5 @@
 	<!-- *************************** -->
 
 </div>
+
 <?php $this->load->view($config['site_template'].'/foot');?>

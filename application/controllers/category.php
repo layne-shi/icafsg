@@ -10,7 +10,7 @@ class Category extends CI_Controller {
 			show_404();
 		}
 	}
-	
+
 	public function index(){
 		$dir = $this->uri->segment(2);
 		$thiscategory = $this->Cache_model->loadCategoryByDir($dir);
@@ -21,7 +21,7 @@ class Category extends CI_Controller {
 			$this->tpllist($thiscategory);
 		}
 	}
-	
+
 	private function tpllist($thiscategory){
 		$tmpCategory = $this->Data_model->getData(array('model'=>$thiscategory['model'],'lang'=>$this->Cache_model->currentLang,'lft >='=>$thiscategory['lft'],'lft <'=>$thiscategory['rht']),'',0,0,'category');
 		$categoryidarr = mult_to_idarr($tmpCategory);
@@ -31,7 +31,7 @@ class Category extends CI_Controller {
 				'status'=>1,
 				'lang'=>$this->Cache_model->currentLang
 		);
-		
+
 		$currentpage = intval($this->uri->segment(3));
 		$currentpage = $currentpage?$currentpage:1;
 		$totalnum = $this->Data_model->getDataNum($datawhere,$thiscategory['model']);
@@ -48,6 +48,7 @@ class Category extends CI_Controller {
 		$config['seo_keywords'] = $thiscategory['keywords']==''?$thiscategory['name']:$thiscategory['keywords'];
 		$config['seo_description'] = $thiscategory['description']==''?'':$thiscategory['description'];
 		$this->load->setPath();
+
 		$res = array(
 				'config'=>$config,
 				'langurl'=>$this->Cache_model->langurl,
@@ -58,7 +59,7 @@ class Category extends CI_Controller {
 		$tpl = $thiscategory['tpllist']==''?$thiscategory['model'].'_list':$thiscategory['tpllist'];
 		$this->load->view($config['site_template'].'/'.$tpl,$res);
 	}
-	
+
 	private function tpldetail($thiscategory){
 		if($this->uri->segment(3)){
 			show_404();
@@ -76,5 +77,5 @@ class Category extends CI_Controller {
 		$tpl = $thiscategory['tpldetail']==''?$thiscategory['model']:$thiscategory['tpldetail'];
 		$this->load->view($config['site_template'].'/'.$tpl,$res);
 	}
-	
+
 }

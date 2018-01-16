@@ -620,7 +620,7 @@ class CI_Upload {
 			return TRUE;
 		}
 		$mime = $this->mimes_types($ext);
-		
+
 		if (is_array($mime))
 		{
 			if (in_array($this->file_type, $mime, TRUE))
@@ -632,11 +632,11 @@ class CI_Upload {
 		{
 				return TRUE;
 		}
-		
-		
+
+
 		//$result = array('error'=>1,'message'=>$this->file_type);
 		//echo json_encode($result);exit;
-		
+
 		return FALSE;
 	}
 
