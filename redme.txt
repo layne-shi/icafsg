@@ -5,8 +5,6 @@
 https://github.com/layne-shi/icafsg
 
 
-ok 
-
 (1) remote fetch后，
 (2) 先 merge，
 (3) 然后再commit
@@ -23,4 +21,20 @@ ok
 帐号：admin
 密码：qweqwe11
 
+
+-----------------------------------------------------------------------------
+
+FTP：
+地址：122.14.213.55
+内网IP：10.0.18.32
+端口号：22
+帐号：root
+密码：KGN3atW5D1
+
+MYSQl:
+帐号：root
+密码：9c57a8ef3a
+
+网站目录：/usr/share/nginx/html
+访问URL：http://122.14.213.55:8000/
 
