@@ -2,12 +2,9 @@
 
 class Review extends CI_Controller {
 	var $tablefunc = 'review';
-	var $fields = array('category','title','keywords','description','content','copyfrom','fromlink','thumb','color','isbold','hits','tpl','listorder','status');
+	var $fields = array('category','title','keywords','description','content','copyfrom','fromlink','thumb','color','isbold','hits','tpl','listorder','status','to_homepage');
 	var $funcarr = array('add','order','del');
 	var $categoryarr,$recommendarr,$editlang,$langurl;
-
-    // 绑定栏目分类
-    const BIND_CATE = 44;
 
 	function __construct(){
 		parent::__construct();
@@ -209,6 +206,7 @@ class Review extends CI_Controller {
 			<td>'.$categorystr.'<a href="'.site_url('detail/'.$this->categoryarr[$item['category']]['dir'].'/'.$item['id'].$this->langurl).'" target="_blank" style="color:'.$item['color'].'">'.$item['title'].'</a></td>
 			<td width=80>'.$item['hits'].'</td>
 			<td width=80>'.$item['realhits'].'</td>
+            <td width=80>'.($item['to_homepage']==1?'是':'否').'</td>
 			<td width=50 >'.lang('status'.$item['status']).'</td>
 			<td width=50>'.$item['func'].'</td></tr>';
 		}

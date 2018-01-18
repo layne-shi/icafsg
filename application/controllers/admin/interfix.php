@@ -1,8 +1,8 @@
 <?php if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 
-class Mediareport extends CI_Controller {
-	var $tablefunc = 'mediareport';
-	var $fields = array('category','title','keywords','description','content','copyfrom','fromlink','thumb','color','isbold','hits','tpl','listorder','status','is_recommend','recommends','to_homepage');
+class Interfix extends CI_Controller{
+	var $tablefunc = 'interfix';
+	var $fields = array('category','title','keywords','description','content','copyfrom','fromlink','thumb','color','isbold','hits','tpl','listorder','status','is_recommend','recommends');
 	var $funcarr = array('add','order','del');
 	var $categoryarr,$recommendarr,$editlang,$langurl;
 
@@ -192,7 +192,6 @@ class Mediareport extends CI_Controller {
 			<td>'.$categorystr.'<a href="'.site_url('detail/'.$this->categoryarr[$item['category']]['dir'].'/'.$item['id'].$this->langurl).'" target="_blank" style="color:'.$item['color'].'">'.$item['title'].'</a></td>
 			<td width=80>'.$item['hits'].'</td>
 			<td width=80>'.($item['is_recommend']==1?'是':'否').'</td>
-            <td width=80>'.($item['to_homepage']==1?'是':'否').'</td>
 			<td width=50 >'.lang('status'.$item['status']).'</td>
 			<td width=50>'.$item['func'].'</td></tr>';
 		}

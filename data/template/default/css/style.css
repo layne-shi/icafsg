@@ -888,46 +888,46 @@ dl.sm dd a.sp_tu h4 {
     float: left;
     height: 41px;
     width: 285px;
-    /* text-indent: -10000px; */
+     text-indent: -10000px; 
 }
 .related ul li img{
     border: none;
 }
 
 .related ul li a.sg1 {
-    /* background: url(../images/sg1_01.jpg) no-repeat */
+     background: url(../images/sg1_01.jpg) no-repeat 
 }
 
 .related ul li a.sg2 {
-    /* background: url(../images/sg2_01.jpg) no-repeat */
+     background: url(../images/sg2_01.jpg) no-repeat 
 }
 
 .related ul li a.sg3 {
-    /* background: url(../images/sg3_01.jpg) no-repeat */
+     background: url(../images/sg3_01.jpg) no-repeat 
 }
 
 .related ul li a.sg4 {
-    /* background: url(../images/sg4_01.jpg) no-repeat */
+     background: url(../images/sg4_01.jpg) no-repeat 
 }
 
 .related ul li a.sg5 {
-    /* background: url(../images/sg5_01.jpg) no-repeat */
+     background: url(../images/sg5_01.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg1 {
-    /* background: url(../images/sg1_02.jpg) no-repeat */
+     background: url(../images/sg1_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg2 {
-    /* background: url(../images/sg2_02.jpg) no-repeat */
+     background: url(../images/sg2_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg3 {
-    /* background: url(../images/sg3_02.jpg) no-repeat */
+     background: url(../images/sg3_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg4 {
-    /* background: url(../images/sg4_02.jpg) no-repeat */
+     background: url(../images/sg4_02.jpg) no-repeat 
 }
 
 

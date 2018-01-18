@@ -24,7 +24,7 @@
 			<div class="clearfix">
 				<div class="inleft01">
 					<div class="title">
-						<a href="<?=site_url('category/ask'.$langurl)?>">
+						<a href="<?=site_url('category/contactus'.$langurl)?>">
 							<img src="data/template/default/images/tit01.jpg" width="425" height="33">
 						</a>
 					</div>
@@ -42,31 +42,38 @@
 				<div class="inleft02">
 				<div class="title"><a href="<?=site_url('category/artscouncil'.$langurl)?>"><img src="data/template/default/images/tit02.jpg" width="282" height="33"></a></div>
 				<div class="inle_news">
-					<ul>
-						<?php $tmpData = x6cms_modellist('article',28,'default',5,0);?>
-						<?php foreach($tmpData as $item):?>
-						<li><a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>"><?=$item['title']?></a></li>
-						<?php endforeach;?>
-					</ul>
+                    <ul>
+                        <?php $tmpData = x6cms_thiscategory($artsCouncil);?>
+                        <?php foreach ($tmpData as $item): ?>
+                            <li>
+                                <a class="" href="<?=(site_url('category/'.$item['dir']))?>"><?=$item['name']?></a>
+                            </li>
+                        <?php endforeach; ?>
+                    </ul>
+
 				</div>
 				</div>
 			</div>
 
 			<div class="inleft03">
-				<div class="title"><a href="<?=site_url('category/festvialItem'.$langurl)?>"><img src="data/template/default/images/tit03.jpg"></a></div>
+				<div class="title"><a href="<?=site_url('category/artfestival'.$langurl)?>"><img src="data/template/default/images/tit03.jpg"></a></div>
 				<div class="project">
-					<dl class="sm clearfix">
-						<?php $tmpData = x6cms_modellist('article',1,'default',6,0);?>
-						<?php foreach($tmpData as $item):?>
-						<dd><a title="<?=$item['title']?>" href="<?=$item['url']?>" class="sp_tu"><img src="<?=$item['thumb']?>" width="188" height="108"><h4><?=$item['title']?></h4></a></dd>
-						<?php endforeach;?>
-					</dl>
+                    <dl class="sm clearfix">
+                        <?php foreach($artfestival as $item):?>
+                        <dd>
+                            <a title="<?=$item['title']?>" href="<?=$item['url']?>" class="sp_tu">
+                                <img src="<?=$item['thumb']?>" width="188" height="108">
+                                <h4><?=$item['title']?></h4>
+                            </a>
+                        </dd>
+                        <?php endforeach;?>
+                    </dl>
 				</div>
 			</div>
 
 			<div class="inleft04">
 				<div class="title">
-					<a href="<?=site_url('category/specialshow'.$langurl)?>"><img src="data/template/default/images/tit04.jpg" width="707" height="33"></a>
+					<a href="<?=site_url('category/specialperformance'.$langurl)?>"><img src="data/template/default/images/tit04.jpg" width="707" height="33"></a>
 				</div>
 				<div id="slider">
 					<div class="buttons">
@@ -74,68 +81,65 @@
 						<span class="next">next</span>
 					</div>
 					<div class="holder">
-						<div class="content" style="left: 0px;">
-							<ul>
-								<?php $tmpData = x6cms_modellist('article',29,'default',27,0);?>
-								<?php foreach($tmpData as $item):?>
-								<li class="fragment">
-									<div class="gdz">
-										<div class="fra_tu">
-											<a href="<?=$item['url']?>">
-												<img src="<?=$item['thumb']?>" width="190" height="118">
-											</a>
-										</div>
-										<div class="fra_wen">
-											<!-- <span>2012/11/30 16:49:47</span>-->
-											<a href="<?=$item['url']?>"></a>
-											<p>
-												<a href="/my1/978.aspx"><?=$item['title']?></a>
-											</p>
-										</div>
-									</div>
-								</li>
-								<?php endforeach;?>
-							</ul>
-						</div>
+				      <div class="content" style="left: 0px;">
+                        <ul>
+                        <?php foreach($specialperformance as $item):?>
+                          <li class="fragment">
+                            <div class="gdz">
+                              <div class="fra_tu">
+                                <a href="<?=$item['url']?>">
+                                  <img src="<?=$item['thumb']?>" width="190" height="118">
+                                 </a>
+                               </div>
+                               <div class="fra_wen">
+                                <p>
+                                  <a href="<?=$item['url']?>">
+                                    <?=$item['title']?>
+                                  </a>
+                                </p>
+                               </div>
+                            </div>
+                          </li>
+                        <?php endforeach;?>
+                        </ul>
+                      </div>
 					</div>
 				</div>
-
 			</div>
 
 			<div class="inleft05">
 				<div class="title">
-					<a href="<?=site_url('category/professorclass'.$langurl)?>"><img src="data/template/default/images/tit05.jpg" width="707" height="33"></a>
+					<a href="<?=site_url('category/expertclass'.$langurl)?>"><img src="data/template/default/images/tit05.jpg" width="707" height="33"></a>
 				</div>
 				<div id="slider">
-					<div class="buttons">
-						<span class="prev">prev</span>
-						<span class="next">next</span>
-					</div>
-					<div class="holder">
-						<div class="content" style="left: 0px;">
-							<ul>
-								<?php $tmpData = x6cms_modellist('article',30,'default',27,0);?>
-								<?php foreach($tmpData as $item):?>
-								<li class="fragment">
-									<div class="gdz">
-										<div class="fra_tu">
-											<a href="<?=$item['url']?>">
-												<img src="<?=$item['thumb']?>" width="190" height="118">
-											</a>
-										</div>
-										<div class="fra_wen">
-											<!-- <span>2012/11/30 16:49:47</span>-->
-											<a href="<?=$item['url']?>"></a>
-											<p>
-												<a href="/my1/978.aspx"><?=$item['title']?></a>
-											</p>
-										</div>
-									</div>
-								</li>
-								<?php endforeach;?>
-							</ul>
-						</div>
-					</div>
+                    <div class="buttons">
+                        <span class="prev">prev</span>
+                        <span class="next">next</span>
+                    </div>
+                    <div class="holder">
+                      <div class="content" style="left: 0px;">
+                        <ul>
+                        <?php foreach($expertclass as $item):?>
+                          <li class="fragment">
+                            <div class="gdz">
+                              <div class="fra_tu">
+                                <a href="<?=$item['url']?>">
+                                  <img src="<?=$item['thumb']?>" width="190" height="118">
+                                 </a>
+                               </div>
+                               <div class="fra_wen">
+                                <p>
+                                  <a href="<?=$item['url']?>">
+                                    <?=$item['title']?>
+                                  </a>
+                                </p>
+                               </div>
+                            </div>
+                          </li>
+                        <?php endforeach;?>
+                        </ul>
+                      </div>
+                    </div>
 				</div>
 
 			</div>
@@ -150,88 +154,91 @@
 					</a>
 				</div>
 				<div class="news">
-					<ul>
-						<?php $tmpData = x6cms_modellist('article',31,'default',8,0);?>
-						<?php foreach($tmpData as $item):?>
-						<li><a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>"><?=$item['title']?></a></li>
-						<?php endforeach;?>
-					</ul>
+                    <ul>
+                    <?php $tmpData = x6cms_modellist('article',68,'default',7,0);?>
+                      <?php foreach ($tmpData as $item): ?>
+                        <li><a href="<?=$item['url']?>" style="<?=$item['color']?><?=$item['isbold']?>"><?=$item['title']?></a></li>
+                    <?php endforeach; ?>
+                    </ul>
 				</div>
 			</div>
 
 			<div class="inleft07">
 				<div class="title02">
-					<a href="<?=site_url('category/report'.$langurl)?>">
+					<a href="<?=site_url('category/mediareport'.$langurl)?>">
 						<img src="data/template/default/images/tit07.jpg" width="270" height="32">
 					</a>
 				</div>
 				<div class="baodao">
-					<ul>
-						<?php $tmpData = x6cms_modellist('article',26,'default',2,0);?>
-						<?php foreach($tmpData as $item):?>
-						<li class="clearfix">
-							<div class="fl">
-								<a href="<?=$item['url']?>"><img src="<?=$item['thumb']?>" width="131" height="85"></a>
-							</div>
-							<div class="fl">
-								<div class="bd_wen">
-									<h5><a href="<?=$item['url']?>"><?=$item['title']?></a></h5>
-								</div>
-							</div>
-						</li>
-						<?php endforeach;?>
-					</ul>
+		            <ul>
+                    <?php foreach($mediareport as $item):?>
+                        <li class="clearfix">
+                          <div class="fl">
+                            <a href="<?=$item['url']?>">
+                              <img src="<?=$item['thumb']?>" width="131" height="85">
+                            </a>
+                          </div>
+                          <div class="fl">
+                            <div class="bd_wen">
+                              <h5>
+                                <a href="<?=$item['url']?>"><?=$item['title']?></a>
+                              </h5>
+                            </div>
+                          </div>
+                        </li>
+                    <?php endforeach;?>
+                    </ul>
 				</div>
 			</div>
 
 			<div class="inleft08">
 				<div class="title03">
-					<a href="<?=site_url('category/splendid'.$langurl)?>">
+					<a href="<?=site_url('category/wonderfulreview'.$langurl)?>">
 						<img src="data/template/default/images/tit08.jpg" width="268" height="32">
 					</a>
 				</div>
 				<div class="cpshow">
-					<ul>
-						<?php $tmpData = x6cms_modellist('article',8,'default',4,0);?>
-						<?php foreach($tmpData as $item):?>
-						<li>
-							<a href="<?=$item['url']?>" class="showlist">
-								<img src="<?=$item['thumb']?>" width="78" height="47">
-								<div class="bd_wen">
-									<h6></h6>
-									<p><?=$item['title']?></p>
-								</div>
-							</a>
-						</li>
-						<?php endforeach;?>
-					</ul>
+                  <ul>
+                  <?php foreach($wonderfulreview as $item):?>
+                    <li>
+                      <a href="<?=$item['url']?>" class="showlist">
+                        <img src="<?=$item['thumb']?>" width="78" height="47">
+                        <div class="bd_wen">
+                          <h6></h6>
+                          <p><?=$item['title']?></p>
+                        </div>
+                      </a>
+                    </li>
+                  <?php endforeach;?>
+                  </ul>
 				</div>
 			</div>
 
 			<div class="inleft09">
 				<div class="title0">
 					<?=x6cms_fragment('right_bottom_title')?>
-					<a href="<?=site_url('category/festivalcorrelation'.$langurl)?>" style="display:none;">
+					<a href="<?=site_url('category/interfix'.$langurl)?>">
 						<img src="data/template/default/images/tit09.jpg" width="286" height="32">
 					</a>
 				</div>
+
 				<div class="related">
 					<ul>
 						<li>
 							<?=x6cms_fragment('right_bottom1')?>
-							<a href="<?=site_url('category/singapore'.$langurl)?>" class="sg1" style="display:none;">藝術節在新加坡</a>
+							<a href="<?=site_url('category/singapore'.$langurl)?>" class="sg1">藝術節在新加坡</a>
 						</li>
 						<li>
 							<?=x6cms_fragment('right_bottom2')?>
-							<a href="<?=site_url('category/seoul'.$langurl)?>" class="sg2" style="display:none;">藝術節在首爾</a>
+							<a href="<?=site_url('category/seoul'.$langurl)?>" class="sg2">藝術節在首爾</a>
 						</li>
 						<li>
 							<?=x6cms_fragment('right_bottom3')?>
-							<a href="<?=site_url('category/taipei'.$langurl)?>" class="sg3" style="display:none;">藝術節在台北</a>
+							<a href="<?=site_url('category/taipei'.$langurl)?>" class="sg3">藝術節在台北</a>
 						</li>
 						<li>
 							<?=x6cms_fragment('right_bottom4')?>
-							<a href="<?=site_url('category/festivalcorrelation'.$langurl)?>" class="sg5" style="display:none;">更多</a>
+							<a href="<?=site_url('category/interfix'.$langurl)?>" class="sg5">更多</a>
 						</li>
 					</ul>
 				</div>

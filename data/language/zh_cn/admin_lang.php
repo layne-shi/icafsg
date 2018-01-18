@@ -173,7 +173,7 @@ $lang['func_sitemap'] = '网站地图';
 $lang['func_keywords'] = '网站关键词';
 $lang['func_tags'] = '聚合标签';
 $lang['func_model'] = '模型管理';
-$lang['func_article'] = '文章管理';
+$lang['func_article'] = '新闻中心';
 $lang['func_product'] = '产品模型';
 $lang['func_down'] = '报名资料下载';
 $lang['func_hr'] = '招聘模型';
@@ -401,10 +401,13 @@ $lang['func_artfestival'] = '艺术节项目';
 $lang['func_artscouncil'] = '艺术委员会';
 $lang['func_review'] = '精彩回顾';
 $lang['func_mediareport'] = '媒体报道';
+$lang['func_interfix'] = '艺术节相关';
 $lang['btn_recommend'] = '推荐';
 $lang['model_review'] = '精彩回顾';
 $lang['model_artscouncil'] = '艺术委员会';
 $lang['model_artfestival'] = '艺术节项目';
+$lang['model_mediareport'] = '媒体报道';
+$lang['model_interfix'] = '艺术节相关';
 
 /* 在线报名 */
 $lang['func_enrolladmin'] = '报名管理';

@@ -10,10 +10,9 @@
 	<option value="title" <?php if ($search['searchtype'] == 'title'): ?>selected<?php endif; ?>><?=lang('title')?></option>
 	<option value="id" <?php if ($search['searchtype'] == 'id'): ?>selected<?php endif; ?>><?=lang('id')?></option>
 	</select>
-	<select name="category"><option value="0">选择分类</option>
-	<?php foreach($categoryarr2 as $category):?>
-    <?php if($category['parent'] == 0) continue; ?>
-	<option value="<?=$category['id']?>"<?php if ($search['category']==$category['id']): ?>selected<?php endif; ?>><?=(str_repeat('&nbsp;&nbsp;',$category['count']-1)).'|--'.$category['name']?></option>
+	<select name="category"><option value="0"><?=lang('category_pselect')?></option>
+	<?php foreach($categoryarr as $category):?>
+	<option value="<?=$category['id']?>"<?php if ($search['category']==$category['id']): ?>selected<?php endif; ?>><?=$category['name']?></option>
 	<?php endforeach;?>
 	</select>
 	<input type="submit" class="btn" value="<?=lang('search')?>">
@@ -29,7 +28,6 @@
 	<th width=80  align=left><?=lang('category')?></th>
 	<th width=80   align="left"><?=lang('hits')?></th>
 	<th width=80   align="left"><?=lang('realhits')?></th>
-    <th width=80   align="left">首页展示</th>
 	<th width=50 align="left"><?=lang('status')?></th>
 	<th width=50  align="left"><?=lang('operate')?></th>
 	</tr>
@@ -60,15 +58,11 @@
 	<table cellSpacing=0 width="100%" class="content_view">
 	<tr>
 		<td><?=lang('category_pselect')?></td>
-		<td colspan="4">
-        <select name="category" id="category" onchange="after_sel(this)" class="validate" validtip="required">
-		<?php foreach($categoryarr2 as $category):?>
-        <?php if($category['parent'] == 0) continue; ?>
-		<option value="<?=$category['id']?>"<?php if (isset($view['category'])&&$view['category']==$category['id']): ?>selected<?php endif; ?>><?=(str_repeat('&nbsp;&nbsp;',$category['count']-1)).'|--'.$category['name']?></option>
+		<td colspan="4"><select name="category" id="category" class="validate" validtip="required">
+		<?php foreach($categoryarr as $category):?>
+		<option value="<?=$category['id']?>"<?php if (isset($view['category'])&&$view['category']==$category['id']): ?>selected<?php endif; ?>><?=$category['name']?></option>
 		<?php endforeach;?>
-		</select>
-        <span id="parent_category"><?=(isset($view['parent_name'])? '父栏目：'.$view['parent_name']:'')?></span>
-        </td>
+		</select></td>
 		<td rowspan="4" class="upic">
 		<img src="<?=isset($view['thumb'])&&$view['thumb']!=''?get_image_url($view['thumb']):get_image_url('data/nopic8080.gif')?>" onclick="uploadpic(this,'thumb')" width="150" id="imgthumb"><input type="hidden" name="thumb" id="thumb" value="<?=isset($view['thumb'])?$view['thumb']:'';?>"><br><input type="button" class="btn" onclick="unsetThumb('thumb','imgthumb')" value="<?=lang('unsetpic')?>">
 		</td>
@@ -94,12 +88,6 @@
 		<td><?=lang('tag')?></td>
 		<td colspan="5"><input type="text" name="tags" id="tags" size="80" class="input-text" value="<?=isset($tags)?$tags:'';?>"><?=lang('tagtip')?></td></tr>
 	<tr>
-		<td>首页展示</td>
-		<td colspan="5">
-            <input type="radio" name="to_homepage" value="0" <?php if(!isset($view['to_homepage'])||$view['to_homepage']==0){echo 'checked';} ?> />否<input type="radio" name="to_homepage" value="1" <?php if(isset($view['to_homepage'])&&$view['to_homepage']==1){echo 'checked';} ?>  />是
-		</td>
-	</tr>
-	<tr>
 		<td><?=lang('copyfrom')?></td>
 		<td><input type="text" name="copyfrom" id="copyfrom" class="input-text" value="<?=isset($view['copyfrom'])?$view['copyfrom']:'';?>"></td>
 		<td><?=lang('fromlink')?></td>
@@ -122,42 +110,4 @@
 	</table>
 	</div>
 	</form>
-
-<script>
-function after_sel(obj)
-{
-    var cates = [];
-    <?php foreach($categoryarr as $category):?>
-    cates.push({
-        'id':'<?=$category[id]?>',
-        'name':'<?=$category[name]?>',
-        'parent':'<?=$category[parent]?>'
-     });
-    <?php endforeach;?>
-
-    var id = obj.value;
-    var count = cates.length;
-    var parent_id;
-
-    for (var i=0;i<count;i++)
-    {
-        var cat_id = parseInt(cates[i].id);
-        if (!isNaN(cat_id) && cat_id == id)
-        {
-            parent_id = parseInt(cates[i].parent);
-            break;
-        }
-    }
-
-    for (var j=0;j<count ;j++ )
-    {
-        if (!isNaN(parent_id) && parent_id == cates[j].id)
-        {
-            document.getElementById('parent_category').innerHTML = '父栏目：' + cates[j].name;
-            break;
-        }
-    }
-}
-</script>
-
 <?php endif;?>

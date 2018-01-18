@@ -38,20 +38,18 @@
 		<div class="mainright">
 			<div class="maincen2">
 				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
-				<div class="zhanshi">
-					<ul class="clearfix">
-						<?php foreach ($list as $item): ?>
-						<li>
-							<div class="wen_fuwu">
-								<a href="<?=$item['url']?>"><?=$item['title']?></a>
-							</div>
-						</li>
-						<?php endforeach; ?>
-					</ul>
+
+				<div class="padding-20-65">
+					<h1 class="text-align-center"><?=$detail['title']?></h1>
+					<?=$detail['content']?>
 				</div>
-				<div class="page"><?=isset($pagestr)?$pagestr:''?></div>
 			</div>
 		</div>
+
+
+
+
 	</div>
 </div>
+
 <?php $this->load->view($config['site_template'].'/foot');?>
