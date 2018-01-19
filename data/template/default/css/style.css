@@ -73,7 +73,7 @@ body {
     color: #696969;
     background: #e4e4e4;
     font-family: "宋体", "微软雅黑", "黑体", Verdana, Arial;
-    overflow-x: hidden;
+    /* overflow-x: hidden; */
 }
 
 h1 {
