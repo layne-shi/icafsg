@@ -1,4 +1,281 @@
-a:3:{s:4:"time";i:1511522051;s:3:"ttl";i:2592000;s:4:"data";a:24:{i:1;a:26:{s:2:"id";s:1:"1";s:6:"parent";s:1:"0";s:3:"lft";s:1:"1";s:3:"rht";s:2:"10";s:4:"name";s:12:"新闻中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"news";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"2";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"2";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost:8011/git/icafsg/index.php?/category/news";s:6:"rssurl";s:52:"http://localhost:8011/git/icafsg/index.php?/rss/news";s:5:"level";i:1;}i:2;a:26:{s:2:"id";s:1:"2";s:6:"parent";s:1:"1";s:3:"lft";s:1:"2";s:3:"rht";s:1:"3";s:4:"name";s:12:"行业动态";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"hangye";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:59:"http://localhost:8011/git/icafsg/index.php?/category/hangye";s:6:"rssurl";s:54:"http://localhost:8011/git/icafsg/index.php?/rss/hangye";s:5:"level";i:2;}i:12;a:26:{s:2:"id";s:2:"12";s:6:"parent";s:1:"1";s:3:"lft";s:1:"4";s:3:"rht";s:1:"9";s:4:"name";s:12:"小六动态";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"xiaoliu";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/xiaoliu";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/xiaoliu";s:5:"level";i:2;}i:13;a:26:{s:2:"id";s:2:"13";s:6:"parent";s:2:"12";s:3:"lft";s:1:"5";s:3:"rht";s:1:"8";s:4:"name";s:12:"帮助中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"help";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost:8011/git/icafsg/index.php?/category/help";s:6:"rssurl";s:52:"http://localhost:8011/git/icafsg/index.php?/rss/help";s:5:"level";i:3;}i:24;a:26:{s:2:"id";s:2:"24";s:6:"parent";s:2:"13";s:3:"lft";s:1:"6";s:3:"rht";s:1:"7";s:4:"name";s:12:"测试栏目";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:5:"ceshi";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:58:"http://localhost:8011/git/icafsg/index.php?/category/ceshi";s:6:"rssurl";s:53:"http://localhost:8011/git/icafsg/index.php?/rss/ceshi";s:5:"level";i:4;}i:3;a:26:{s:2:"id";s:1:"3";s:6:"parent";s:1:"0";s:3:"lft";s:2:"11";s:3:"rht";s:2:"16";s:4:"name";s:12:"产品中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"product";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"product";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"1";s:9:"listorder";s:1:"1";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/product";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/product";s:5:"level";i:1;}i:10;a:26:{s:2:"id";s:2:"10";s:6:"parent";s:1:"3";s:3:"lft";s:2:"12";s:3:"rht";s:2:"13";s:4:"name";s:12:"优惠套餐";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"youhui";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"product";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:59:"http://localhost:8011/git/icafsg/index.php?/category/youhui";s:6:"rssurl";s:54:"http://localhost:8011/git/icafsg/index.php?/rss/youhui";s:5:"level";i:2;}i:11;a:26:{s:2:"id";s:2:"11";s:6:"parent";s:1:"3";s:3:"lft";s:2:"14";s:3:"rht";s:2:"15";s:4:"name";s:12:"产品服务";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"fuwu";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"product";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost:8011/git/icafsg/index.php?/category/fuwu";s:6:"rssurl";s:52:"http://localhost:8011/git/icafsg/index.php?/rss/fuwu";s:5:"level";i:2;}i:4;a:26:{s:2:"id";s:1:"4";s:6:"parent";s:1:"0";s:3:"lft";s:2:"17";s:3:"rht";s:2:"20";s:4:"name";s:12:"下载中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"down";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:4:"down";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"1";s:9:"listorder";s:1:"3";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost:8011/git/icafsg/index.php?/category/down";s:6:"rssurl";s:52:"http://localhost:8011/git/icafsg/index.php?/rss/down";s:5:"level";i:1;}i:14;a:26:{s:2:"id";s:2:"14";s:6:"parent";s:1:"4";s:3:"lft";s:2:"18";s:3:"rht";s:2:"19";s:4:"name";s:12:"开源程序";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"kaiyuan";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:4:"down";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/kaiyuan";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/kaiyuan";s:5:"level";i:2;}i:5;a:26:{s:2:"id";s:1:"5";s:6:"parent";s:1:"0";s:3:"lft";s:2:"21";s:3:"rht";s:2:"24";s:4:"name";s:12:"招聘中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:2:"hr";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:2:"hr";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"5";s:4:"lang";s:5:"zh_cn";s:3:"url";s:55:"http://localhost:8011/git/icafsg/index.php?/category/hr";s:6:"rssurl";s:50:"http://localhost:8011/git/icafsg/index.php?/rss/hr";s:5:"level";i:1;}i:6;a:26:{s:2:"id";s:1:"6";s:6:"parent";s:1:"5";s:3:"lft";s:2:"22";s:3:"rht";s:2:"23";s:4:"name";s:9:"技术类";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:10:"technology";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:2:"hr";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:63:"http://localhost:8011/git/icafsg/index.php?/category/technology";s:6:"rssurl";s:58:"http://localhost:8011/git/icafsg/index.php?/rss/technology";s:5:"level";i:2;}i:7;a:26:{s:2:"id";s:1:"7";s:6:"parent";s:1:"0";s:3:"lft";s:2:"25";s:3:"rht";s:2:"26";s:4:"name";s:11:"关于X6CMS";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"aboutus";s:5:"title";s:29:"X6CMS网站管理系统简介";s:8:"keywords";s:5:"X6CMS";s:11:"description";s:190:"X6CMS：全称小六网站内容管理系统。X6CMS是一个功能完善的营销型网站管理平台，采用PHP+MYSQL架构，全站内置SEO优化机制，界面简介，操作方便。";s:5:"model";s:4:"page";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:1344:"<p>
+a:3:{s:4:"time";i:1515309237;s:3:"ttl";i:2592000;s:4:"data";a:34:{i:1;a:26:{s:2:"id";s:1:"1";s:6:"parent";s:1:"0";s:3:"lft";s:1:"1";s:3:"rht";s:1:"2";s:4:"name";s:16:"藝術節項目 ";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:12:"festvialItem";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"2";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"2";s:4:"lang";s:5:"zh_cn";s:3:"url";s:63:"http://localhost/icafsg/icafsg/index.php?/category/festvialItem";s:6:"rssurl";s:58:"http://localhost/icafsg/icafsg/index.php?/rss/festvialItem";s:5:"level";i:1;}i:3;a:26:{s:2:"id";s:1:"3";s:6:"parent";s:1:"0";s:3:"lft";s:1:"3";s:3:"rht";s:1:"4";s:4:"name";s:22:" 國際華人藝術節";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:8:"festival";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:4:"page";s:5:"thumb";s:98:"http://localhost/icafsg/icafsg/data/attachment/image/20171126/912c8e703615e91911d26f6dbd5b97dc.jpg";s:7:"content";s:8370:"<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong><span class="scayt-misspell">國際華人藝術節簡稱</span>&nbsp;<span class="scayt-misspell">‘ICAF’。國際華人藝術節組委會以“搭建全球華人文化藝術交流平臺，促進全球華人文化藝術和諧發展”為己任，力求為各國華人藝術家及藝術愛好者提供一個學習、交流的平臺，並通過多樣的方式，展示包羅萬象的世界文化藝術與博大精深的華人文化藝術。</span></strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="scayt-misspell">國際華人藝術節的主體活動包括演出、音樂會、文化藝術研討會、專家課以及國際華人鋼琴、民族器樂、西洋管弦樂器、舞蹈、聲樂、合唱等大賽。組委會將邀請國際及國內著名藝術家及藝術愛好者參與其中，並在藝術節期間開展豐富多彩的學習、交流等活動，使得參會人員在和諧、愉悅的氛圍下共同進步，展現華人風采、展示華人魅力。</span></strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="scayt-misspell">比賽的評委均來自國際、國內及港澳臺地區的藝術家。大賽設置了國際華人藝術節特別金獎、金獎、銀獎、銅獎、優秀獎、最佳表演獎、優秀表演獎、參賽獎等獎項。比賽之餘將舉行研討會、音樂會、大師班及豐富多彩的藝術交流、觀摩活動。使與會人員在平等競爭中學習，在輕鬆交流中進步</span></strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;&nbsp;<span class="scayt-misspell">相信在國際華人藝術節組委會的努力下，定會達到促進國際華人藝術交流、增進國際華人友誼、推動全球華人文化藝術發展的目的。為推動全球華人文化藝術和諧發展作出傑出的貢獻。</span></strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>國際華人藝術節組委會</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong><strong>&nbsp;&nbsp;&nbsp;博</strong>雅華頌文化傳<strong>媒（北京）有限公司系新加坡總公司爲拓展亞洲地區業務，自2010年7月于北京正式注冊成立的具有合法資質的文化傳媒公司。經營範圍包括：組織文化藝術交流；舉辦國際藝術節、各類文藝演出、慶典等活動；承辦展覽展示；承接企業形象設計、影視策劃、廣告發布等項目。下設項目策劃部、市場運營部、演出部、活動部、企業宣傳部、聯絡部、公關部、財務部、行政部。</strong></strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;公司主要從事組織文化藝術交流、專業藝術演出、國際華人藝術節及國際大賽、專業劇院團整體市場運營等相關工作，與亞洲各主要國家和城市的專業劇院團、音樂類院校，國內各省市專業劇院團、九大音樂學院、各地師範類院校音樂學院均有良好的合作關系。</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;公司以“搭建世界華人文化藝術交流平台，促進世界華人文化藝術和諧發展”爲己任，力求通過多樣的方式，展示包羅萬象的世界文化藝術與博大精深的華人文化藝術。公司每年于新加坡等地舉辦的“國際華人藝術節”活動，吸引了大量來自海內外的藝術家、藝術愛好者參與其中，藝術節包含了很多分支項目，如：國際華人藝術節（新加坡、韓國、台灣等）、中國優秀青年舞蹈家展演、中國舞蹈國際大賽、中國聲樂國際大賽、中國民族器樂國際大賽、國際管弦樂藝術節、國際低音提琴藝術節、國際合唱藝術節等。公司每年成功舉辦十余場專業音樂會，承接國內多個國家級、省級專業劇院團的整體市場運營工作，組織亞洲地區優秀樂團展演、國家企事業單位的年度慶典、紀念演出等活動，目前擁有一支由本科生、研究生和職業經理人組成的業務娴熟、行事規範的合作團隊。</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;公司組建至今，受到各藝術領域專家學者的深度認同，也得到了各合作夥伴的一致肯定。隨著公司業務的不斷擴展，在“文化大發展、大繁榮”的今天，我們將與更多有著共同志向的夥伴攜手共進，爲中國、亞洲乃至世界的文化事業盡一份力量。</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</strong> 
+</p>
+<p style="color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <strong><strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span class="scayt-misspell">博雅華頌文化傳媒（北京）有限公司</span></strong></strong></strong> 
+</p>";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"1";s:9:"listorder";s:1:"1";s:4:"lang";s:5:"zh_cn";s:3:"url";s:59:"http://localhost/icafsg/icafsg/index.php?/category/festival";s:6:"rssurl";s:54:"http://localhost/icafsg/icafsg/index.php?/rss/festival";s:5:"level";i:1;}i:4;a:26:{s:2:"id";s:1:"4";s:6:"parent";s:1:"0";s:3:"lft";s:1:"5";s:3:"rht";s:2:"12";s:4:"name";s:15:"藝術委員会";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"committee";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"1";s:9:"listorder";s:1:"3";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost/icafsg/icafsg/index.php?/category/committee";s:6:"rssurl";s:55:"http://localhost/icafsg/icafsg/index.php?/rss/committee";s:5:"level";i:1;}i:33;a:26:{s:2:"id";s:2:"33";s:6:"parent";s:1:"4";s:3:"lft";s:1:"6";s:3:"rht";s:1:"7";s:4:"name";s:15:"藝術總顧問";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:14:"generalcounsel";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:4:"page";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:180:"藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問藝術總顧問";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:65:"http://localhost/icafsg/icafsg/index.php?/category/generalcounsel";s:6:"rssurl";s:60:"http://localhost/icafsg/icafsg/index.php?/rss/generalcounsel";s:5:"level";i:2;}i:34;a:26:{s:2:"id";s:2:"34";s:6:"parent";s:1:"4";s:3:"lft";s:1:"8";s:3:"rht";s:1:"9";s:4:"name";s:12:"藝術總監";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:11:"artdirector";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:62:"http://localhost/icafsg/icafsg/index.php?/category/artdirector";s:6:"rssurl";s:57:"http://localhost/icafsg/icafsg/index.php?/rss/artdirector";s:5:"level";i:2;}i:35;a:26:{s:2:"id";s:2:"35";s:6:"parent";s:1:"4";s:3:"lft";s:2:"10";s:3:"rht";s:2:"11";s:4:"name";s:42:"往屆藝術顧問、委員、評委專家";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:14:"othercounselor";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:65:"http://localhost/icafsg/icafsg/index.php?/category/othercounselor";s:6:"rssurl";s:60:"http://localhost/icafsg/icafsg/index.php?/rss/othercounselor";s:5:"level";i:2;}i:5;a:26:{s:2:"id";s:1:"5";s:6:"parent";s:1:"0";s:3:"lft";s:2:"13";s:3:"rht";s:2:"14";s:4:"name";s:12:"常見問題";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:3:"faq";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:4:"page";s:5:"thumb";s:98:"http://localhost/icafsg/icafsg/data/attachment/image/20171126/156a27b7926ea1a3d1f06c27072a368c.jpg";s:7:"content";s:10723:"<h2 style="font-weight:normal;font-size:12px;font-family:宋体;color:#9A9797;text-align:center;background-color:#FBFBFB;">
+ 發佈時間：2012/12/13 16:43:21 發佈人： 瀏覽次數：5363次
+</h2>
+<div class="conwen" style="margin:0px;padding:0px;border:0px;font-size:14px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;background-color:#FBFBFB;">
+ <p>
+  <strong>1.&nbsp;</strong><strong>國際華人藝術節是什麼？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 國際華人藝術節簡稱ICAF,於新加坡政府正式註冊及認證，屬非營利性機構，是專業從事藝術節的正規機構,是融文化藝術交流、演出、比賽、專家課程、觀摩等為一體的大型文化藝術活動。經許可，國際華人藝術節可将世界任何國家作為舉辦地，擬為“搭建全球華人文化藝術交流平臺，促進全球華人文化藝術和諧發展”而做出應有的貢獻。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>2</strong><strong>、國際華人藝術節的性質和宗旨？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 國際華人藝術節是半公益性活動；
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;宗旨：
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 為全球華人，提供一個感受高規格國際賽事的平臺，給藝術愛好者們提供得到國際著名藝術家親臨教誨的機會、提供在國際賽事上展示自己的平臺，開拓孩子們的視野，讓眾多因各種原因無法接觸和企及國際比賽的藝術愛好者有機會參與，並通過自身努力獲得國際比賽的獎項，為國內外華人藝術愛好者開啟美好的藝術人生之路，協助他們更好地在專業道路上提升、發展。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>2.&nbsp;</strong><strong>國際華人藝術節舉辦地在哪？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;截止2013年前，國際華人藝術節舉辦地分列在新加坡、韓國﹒首爾及台灣。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>3.&nbsp;</strong><strong>曾經聽到或看到有類似的活動名稱，是否是一個活動？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;不是，國際華人藝術節是在新加坡政府正規註冊和認證的文化藝術交流活動及國際大賽，與其它使用類似名稱的活動沒有任何關係（如：**華人藝術節或**音樂比賽等），如果有其它活動使用我們的名稱，將造成侵權，我們將追究其法律責任。國際華人藝術節是通過多年對世界多元文化的瞭解而為各界文化藝術專家及人才量身打造的文化藝術平臺，不論在服務接待、專業水準及藝術標準均遠遠超出同類活動。正是因為國際華人藝術節得到社會各界的認可和信任，不排除有某些個人或機構惡意使用“國際華人藝術節”的名稱組織與本藝術節毫不相關的活動，敬請大家提高警惕，謹防受騙。如有疑問，請致電組委會。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>4.&nbsp;</strong><strong>國際華人藝術節的服務接待標準是什麼？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 國際華人藝術節組委會在大家出國前就根據實際情況為大家辦理好境外保險及相關食宿安排。參會人員的住宿標準均高於三星（標準間或大床房）標準。組委會將根據實際參加的人員及家長情況合理安排房間。組委會為大家提供了豐富的餐飲，包括自助、圓桌餐等形式，餐食依據活動舉辦地不同，包括新加坡餐、韓餐、馬來餐、泰國餐、中餐等，讓大家胃口大開，充分享受異國風情帶來的愉悅和舒適。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>5.&nbsp;</strong><strong>我的個人簽證是否可以自己辦理？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 可以自行辦理，但是個人辦理簽證需要辦理簽證的本人提供諸多材料、銀行證明、房產證明等，最終也會因為些許客觀原因而被拒簽。為保障您順利參加國際華人藝術節，組委會建議簽證由組委會統一辦理。因為各國領事館及移民廳對國際華人藝術節都開通綠色通道，准簽率很高，為您的出行提供更多的便利。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>6</strong><strong>．</strong><strong>國際華人藝術節的收費是否偏高？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp; 首先，國際華人藝術節具有公益性，不是純粹的商業營利性機構，無任何形式的贊助及支助性運作；其次，國際華人藝術節更不是旅遊機構，沒有行業內的折扣或返點；再次，藝術節期間是旅遊旺季，我們全程均在新加坡和首爾當地吃住行，機票和地接價格較高，費用遠非馬來西亞、泰國等低消費國家可比，此乃組委會人力所無法控制的大背景；另外，國際貨幣匯率在逐步上揚，組委會還要承擔匯率差額造成的極大風險。組委會已對所有的出入境、演出、交流、比賽、接待等方面進行了充分瞭解，每人交納的費用，組委會都是在維持成本運作的基礎上，將資金最大化地用在參加者身上，為大家提供更好的食宿、邀請知名專家、安排頂尖的專家課程、使用一流的場地、舉行高品質的音樂會、安排精緻的旅行線路等，讓大家絕對物超所值，收穫更多。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>7</strong><strong>．</strong><strong>國際華人藝術節的專家都是哪里的？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp; 國際華人藝術節邀請的專家都是在各個國家具有極高文化藝術造詣的教授。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>8.&nbsp;&nbsp;</strong><strong>參加國際華人藝術節的選手都是中國的嗎？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;不是。現在參加國際華人藝術節的選手的主體包括：中國、新加坡、加拿大、美國、
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 馬來西亞、韓國、日本、雅加達、泰國、菲律賓、等十幾個國家的華人。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>9.&nbsp;&nbsp;</strong><strong>如何報名？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 請詳細參照網站上進行報名
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>10.&nbsp;&nbsp;</strong><strong>如何繳費？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 請詳細參照網站上進行繳費。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>11.&nbsp;&nbsp;</strong><strong>繳費後是否有收費憑證？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;正常繳費後，組委會將提供國際華人藝術節專用發票（即由新加坡註冊地統一印發的藝術節收款收據）。請將銀行打款單或網銀轉款單留存，以便順利換取發票（即收據）。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>12.&nbsp;&nbsp;</strong><strong>如果繳納完費用，因個人原因而無法前往參賽，組委會是否會全額退款？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 參加者繳納費用後，參賽者的簽證、接待、機票等相關工作就已經執行，如因個人原因無法履行出行，為避免產生損失或減少損失，請儘快告知組委會或相關負責老師，及時終止相關事宜的辦理，進入退費流程。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>13.&nbsp;&nbsp;</strong><strong>出國前需如何準備？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;詳情見出行須知。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>14.&nbsp;&nbsp;</strong><strong>參加藝術節時攜帶樂器需注意什麼？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;首先是人身安全，這裏要加入器樂的保管，藝術節組委會不負責自帶樂器的保管，樂器出現問題，由選手自己負責。如古箏、揚琴等大件樂器組委會不建議選手自行攜帶，組委會會提前準備好比賽用琴。特別提示：因參賽選手眾多，活動安排緊湊，組委會在舉辦地不單獨提供參賽選手各種方式的練琴及練聲，請參賽選手細緻準備，充分發揮。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>15.&nbsp;&nbsp;</strong><strong>證書及獎盃何時發放？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;因參賽選手眾多，專業及組別複雜，比賽成績的整理及審計工作需要7個工作日進行統計，證書及獎盃的製作需15個工作日，郵寄需要3個工作日。所以在回國後7個工作日後可得到最終比賽獎項通知，25個工作日後可得到證書及獎盃。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>16.&nbsp;&nbsp;</strong><strong>是否可以自行乘機前往？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp; 出於安全和便於活動整體統籌安排的考慮，我們不建議（不同意）參加者自行前往目的地，因為活動週期較長，又身處國外，為了確保每一位參加者都能安全出行並回國，組委會需要隨時瞭解所有參會人員的動向，不希望因為任何環節的疏忽或資訊溝通不及時，而出現安全事故或出現將參加者遺留在國外沒能安全回國的情況，所以所有參加者的行程由組委會統一安排。
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  &nbsp;
+ </p>
+ <p>
+  <strong>17.&nbsp;&nbsp;</strong><strong>家長不參加比賽和專家課是否可以免除相關費用？</strong> 
+ </p>
+ <p>
+  &nbsp;&nbsp;&nbsp;&nbsp;費用都是統一的，因為一方面，為了體現藝術節的公平性，藝術節活動全程向家長開放，音樂會、專家課、比賽等環節家長均可以參與，因此藝術節活動的每一個環節都是按照參與的整體人數進行安排的；另一方面，家長參與藝術節活動，組委會的工作量加大，各方面成本提高，例如：增加了藝術節人數、房間標間數、吃飯費用、大巴數、藝術節場地租用費用等很多方面的相關費用，藝術節組委會原定每位家長加收500元會務費，因考慮到這樣一來增加了參加者的費用支出，最後所有組委會成員一致同意，家長參加不再另外收取會務費，以此來感謝大家對我們工作的支持和配合。&nbsp;
+ </p>
+</div>";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"5";s:4:"lang";s:5:"zh_cn";s:3:"url";s:54:"http://localhost/icafsg/icafsg/index.php?/category/faq";s:6:"rssurl";s:49:"http://localhost/icafsg/icafsg/index.php?/rss/faq";s:5:"level";i:1;}i:7;a:26:{s:2:"id";s:1:"7";s:6:"parent";s:1:"0";s:3:"lft";s:2:"15";s:3:"rht";s:2:"16";s:4:"name";s:11:"关于X6CMS";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"aboutus";s:5:"title";s:29:"X6CMS网站管理系统简介";s:8:"keywords";s:5:"X6CMS";s:11:"description";s:190:"X6CMS：全称小六网站内容管理系统。X6CMS是一个功能完善的营销型网站管理平台，采用PHP+MYSQL架构，全站内置SEO优化机制，界面简介，操作方便。";s:5:"model";s:4:"page";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:1344:"<p>
  <span style="line-height:2;">X6CMS：全称小六网站内容管理系统。X6CMS是一个功能完善的营销型网站管理平台，采用PHP+MYSQL架构，全站内置SEO优化机制，界面简介，操作方便。</span> 
 </p>
 <p>
@@ -33,4 +310,34 @@ a:3:{s:4:"time";i:1511522051;s:3:"ttl";i:2592000;s:4:"data";a:24:{i:1;a:26:{s:2:
 </p>
 <p>
  <br />
-</p>";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"7";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/aboutus";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/aboutus";s:5:"level";i:1;}i:8;a:26:{s:2:"id";s:1:"8";s:6:"parent";s:1:"0";s:3:"lft";s:2:"27";s:3:"rht";s:2:"28";s:4:"name";s:12:"在线留言";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"guestbook";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:9:"guestbook";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:5:"33333";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"6";s:4:"lang";s:5:"zh_cn";s:3:"url";s:62:"http://localhost:8011/git/icafsg/index.php?/category/guestbook";s:6:"rssurl";s:57:"http://localhost:8011/git/icafsg/index.php?/rss/guestbook";s:5:"level";i:1;}i:9;a:26:{s:2:"id";s:1:"9";s:6:"parent";s:1:"0";s:3:"lft";s:2:"29";s:3:"rht";s:2:"30";s:4:"name";s:12:"问答中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:3:"ask";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:3:"ask";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"4";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost:8011/git/icafsg/index.php?/category/ask";s:6:"rssurl";s:51:"http://localhost:8011/git/icafsg/index.php?/rss/ask";s:5:"level";i:1;}i:25;a:26:{s:2:"id";s:2:"25";s:6:"parent";s:1:"0";s:3:"lft";s:2:"31";s:3:"rht";s:2:"32";s:4:"name";s:12:"技术论坛";s:10:"isexternal";s:1:"1";s:11:"externalurl";s:20:"http://bbs.x6cms.com";s:6:"target";s:6:"_blank";s:3:"dir";s:3:"bbs";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:20:"http://bbs.x6cms.com";s:6:"rssurl";s:20:"http://bbs.x6cms.com";s:5:"level";i:1;}i:26;a:26:{s:2:"id";s:2:"26";s:6:"parent";s:1:"0";s:3:"lft";s:2:"33";s:3:"rht";s:2:"34";s:4:"name";s:9:"艺术节";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"art_day";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:3:"111";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"20";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/art_day";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/art_day";s:5:"level";i:1;}i:27;a:26:{s:2:"id";s:2:"27";s:6:"parent";s:1:"0";s:3:"lft";s:2:"35";s:3:"rht";s:2:"48";s:4:"name";s:6:"艺术";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:3:"art";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"20";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"20";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost:8011/git/icafsg/index.php?/category/art";s:6:"rssurl";s:51:"http://localhost:8011/git/icafsg/index.php?/rss/art";s:5:"level";i:1;}i:28;a:26:{s:2:"id";s:2:"28";s:6:"parent";s:2:"27";s:3:"lft";s:2:"36";s:3:"rht";s:2:"41";s:4:"name";s:9:"艺术家";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"artman";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"20";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:59:"http://localhost:8011/git/icafsg/index.php?/category/artman";s:6:"rssurl";s:54:"http://localhost:8011/git/icafsg/index.php?/rss/artman";s:5:"level";i:2;}i:30;a:26:{s:2:"id";s:2:"30";s:6:"parent";s:2:"28";s:3:"lft";s:2:"37";s:3:"rht";s:2:"38";s:4:"name";s:12:"男艺术家";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:3:"man";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"20";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost:8011/git/icafsg/index.php?/category/man";s:6:"rssurl";s:51:"http://localhost:8011/git/icafsg/index.php?/rss/man";s:5:"level";i:3;}i:31;a:26:{s:2:"id";s:2:"31";s:6:"parent";s:2:"28";s:3:"lft";s:2:"39";s:3:"rht";s:2:"40";s:4:"name";s:12:"女艺术家";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:5:"woman";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"10";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:58:"http://localhost:8011/git/icafsg/index.php?/category/woman";s:6:"rssurl";s:53:"http://localhost:8011/git/icafsg/index.php?/rss/woman";s:5:"level";i:3;}i:29;a:26:{s:2:"id";s:2:"29";s:6:"parent";s:2:"27";s:3:"lft";s:2:"42";s:3:"rht";s:2:"47";s:4:"name";s:9:"艺术展";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"artshow";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"20";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost:8011/git/icafsg/index.php?/category/artshow";s:6:"rssurl";s:55:"http://localhost:8011/git/icafsg/index.php?/rss/artshow";s:5:"level";i:2;}i:32;a:26:{s:2:"id";s:2:"32";s:6:"parent";s:2:"29";s:3:"lft";s:2:"43";s:3:"rht";s:2:"44";s:4:"name";s:12:"中国艺术";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:8:"chinaart";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"10";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:61:"http://localhost:8011/git/icafsg/index.php?/category/chinaart";s:6:"rssurl";s:56:"http://localhost:8011/git/icafsg/index.php?/rss/chinaart";s:5:"level";i:3;}i:33;a:26:{s:2:"id";s:2:"33";s:6:"parent";s:2:"29";s:3:"lft";s:2:"45";s:3:"rht";s:2:"46";s:4:"name";s:12:"国外艺术";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"outherart";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:33:"http://localhost:8011/git/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"10";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:62:"http://localhost:8011/git/icafsg/index.php?/category/outherart";s:6:"rssurl";s:57:"http://localhost:8011/git/icafsg/index.php?/rss/outherart";s:5:"level";i:3;}}}
+</p>";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"7";s:4:"lang";s:5:"zh_cn";s:3:"url";s:58:"http://localhost/icafsg/icafsg/index.php?/category/aboutus";s:6:"rssurl";s:53:"http://localhost/icafsg/icafsg/index.php?/rss/aboutus";s:5:"level";i:1;}i:8;a:26:{s:2:"id";s:1:"8";s:6:"parent";s:1:"0";s:3:"lft";s:2:"17";s:3:"rht";s:2:"32";s:4:"name";s:12:"精彩回顧";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:8:"splendid";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:98:"http://localhost/icafsg/icafsg/data/attachment/image/20171126/ed7417c90d0d7266b14a5837ec260156.jpg";s:7:"content";s:5:"33333";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"8";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"6";s:4:"lang";s:5:"zh_cn";s:3:"url";s:59:"http://localhost/icafsg/icafsg/index.php?/category/splendid";s:6:"rssurl";s:54:"http://localhost/icafsg/icafsg/index.php?/rss/splendid";s:5:"level";i:1;}i:29;a:26:{s:2:"id";s:2:"29";s:6:"parent";s:1:"8";s:3:"lft";s:2:"18";s:3:"rht";s:2:"23";s:4:"name";s:12:"专场演出";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:11:"specialshow";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:62:"http://localhost/icafsg/icafsg/index.php?/category/specialshow";s:6:"rssurl";s:57:"http://localhost/icafsg/icafsg/index.php?/rss/specialshow";s:5:"level";i:2;}i:43;a:26:{s:2:"id";s:2:"43";s:6:"parent";s:2:"29";s:3:"lft";s:2:"19";s:3:"rht";s:2:"20";s:4:"name";s:9:"西洋樂";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:10:"xiyangyue1";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:61:"http://localhost/icafsg/icafsg/index.php?/category/xiyangyue1";s:6:"rssurl";s:56:"http://localhost/icafsg/icafsg/index.php?/rss/xiyangyue1";s:5:"level";i:3;}i:44;a:26:{s:2:"id";s:2:"44";s:6:"parent";s:2:"29";s:3:"lft";s:2:"21";s:3:"rht";s:2:"22";s:4:"name";s:6:"舞蹈";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"wudao1";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost/icafsg/icafsg/index.php?/category/wudao1";s:6:"rssurl";s:52:"http://localhost/icafsg/icafsg/index.php?/rss/wudao1";s:5:"level";i:3;}i:30;a:26:{s:2:"id";s:2:"30";s:6:"parent";s:1:"8";s:3:"lft";s:2:"24";s:3:"rht";s:2:"25";s:4:"name";s:9:"专家课";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:14:"professorclass";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:65:"http://localhost/icafsg/icafsg/index.php?/category/professorclass";s:6:"rssurl";s:60:"http://localhost/icafsg/icafsg/index.php?/rss/professorclass";s:5:"level";i:2;}i:32;a:26:{s:2:"id";s:2:"32";s:6:"parent";s:1:"8";s:3:"lft";s:2:"26";s:3:"rht";s:2:"31";s:4:"name";s:18:"大賽精華回顧";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:13:"essencereview";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:64:"http://localhost/icafsg/icafsg/index.php?/category/essencereview";s:6:"rssurl";s:59:"http://localhost/icafsg/icafsg/index.php?/rss/essencereview";s:5:"level";i:2;}i:41;a:26:{s:2:"id";s:2:"41";s:6:"parent";s:2:"32";s:3:"lft";s:2:"27";s:3:"rht";s:2:"28";s:4:"name";s:9:"西洋樂";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"xiyangyue";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost/icafsg/icafsg/index.php?/category/xiyangyue";s:6:"rssurl";s:55:"http://localhost/icafsg/icafsg/index.php?/rss/xiyangyue";s:5:"level";i:3;}i:42;a:26:{s:2:"id";s:2:"42";s:6:"parent";s:2:"32";s:3:"lft";s:2:"29";s:3:"rht";s:2:"30";s:4:"name";s:6:"舞蹈";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:5:"wudao";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost/icafsg/icafsg/index.php?/category/wudao";s:6:"rssurl";s:51:"http://localhost/icafsg/icafsg/index.php?/rss/wudao";s:5:"level";i:3;}i:9;a:26:{s:2:"id";s:1:"9";s:6:"parent";s:1:"0";s:3:"lft";s:2:"33";s:3:"rht";s:2:"34";s:4:"name";s:18:"報名资料下載";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"down";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:4:"down";s:5:"thumb";s:98:"http://localhost/icafsg/icafsg/data/attachment/image/20171126/18ef8785381133783f79c986f05cf6ed.jpg";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:2:"12";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"4";s:4:"lang";s:5:"zh_cn";s:3:"url";s:55:"http://localhost/icafsg/icafsg/index.php?/category/down";s:6:"rssurl";s:50:"http://localhost/icafsg/icafsg/index.php?/rss/down";s:5:"level";i:1;}i:25;a:26:{s:2:"id";s:2:"25";s:6:"parent";s:1:"0";s:3:"lft";s:2:"35";s:3:"rht";s:2:"36";s:4:"name";s:12:"技术论坛";s:10:"isexternal";s:1:"1";s:11:"externalurl";s:20:"http://bbs.x6cms.com";s:6:"target";s:1:"0";s:3:"dir";s:3:"bbs";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:20:"http://bbs.x6cms.com";s:6:"rssurl";s:20:"http://bbs.x6cms.com";s:5:"level";i:1;}i:26;a:26:{s:2:"id";s:2:"26";s:6:"parent";s:1:"0";s:3:"lft";s:2:"37";s:3:"rht";s:2:"38";s:4:"name";s:12:"媒體報道";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"report";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"8";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost/icafsg/icafsg/index.php?/category/report";s:6:"rssurl";s:52:"http://localhost/icafsg/icafsg/index.php?/rss/report";s:5:"level";i:1;}i:27;a:26:{s:2:"id";s:2:"27";s:6:"parent";s:1:"0";s:3:"lft";s:2:"39";s:3:"rht";s:2:"40";s:4:"name";s:12:"聯系我們";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"contactUs";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:4:"page";s:5:"thumb";s:98:"http://localhost/icafsg/icafsg/data/attachment/image/20171126/6da732192b10c468eb0c570a8453cfe0.jpg";s:7:"content";s:2905:"<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <span>國際華人藝術節（新加坡）總部：</span>
+</div>
+<img src="http://localhost/icafsg/icafsg/data/attachment/image/20171126/8f6ebd15488541b60978e1a93ac47be8.jpg" width="430" height="430" align="right" alt="" />
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;10&nbsp;<span>Anson</span>&nbsp;Road #26-04&nbsp; International Plaza &nbsp;
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Singapore 079903
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;電話：+65 81689812&nbsp; 汪老師
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ <span>國際華人藝術節</span>(<span>北京</span>)<span>組委會：</span> 
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>北京市朝陽區北苑路媒體村天暢園4號樓2703室</span> 
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>郵編：100107</span> 
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 電話：+86 10 84827462&nbsp; 谭老師
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 傳真：+86 10 84829489
+</div>
+<div style="margin:0px;padding:0px;border:0px;color:#696969;font-family:宋体, 微软雅黑, 黑体, Verdana, Arial;font-size:14px;background-color:#FBFBFB;">
+ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 電郵：icafsg@aliyun.com&nbsp;
+</div>";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"1";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:1:"9";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost/icafsg/icafsg/index.php?/category/contactUs";s:6:"rssurl";s:55:"http://localhost/icafsg/icafsg/index.php?/rss/contactUs";s:5:"level";i:1;}i:28;a:26:{s:2:"id";s:2:"28";s:6:"parent";s:1:"0";s:3:"lft";s:2:"41";s:3:"rht";s:2:"42";s:4:"name";s:15:"艺术委员会";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:11:"artscouncil";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:62:"http://localhost/icafsg/icafsg/index.php?/category/artscouncil";s:6:"rssurl";s:57:"http://localhost/icafsg/icafsg/index.php?/rss/artscouncil";s:5:"level";i:1;}i:31;a:26:{s:2:"id";s:2:"31";s:6:"parent";s:1:"0";s:3:"lft";s:2:"43";s:3:"rht";s:2:"44";s:4:"name";s:12:"新闻中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:10:"newscenter";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:61:"http://localhost/icafsg/icafsg/index.php?/category/newscenter";s:6:"rssurl";s:56:"http://localhost/icafsg/icafsg/index.php?/rss/newscenter";s:5:"level";i:1;}i:10;a:26:{s:2:"id";s:2:"10";s:6:"parent";s:1:"0";s:3:"lft";s:2:"45";s:3:"rht";s:2:"46";s:4:"name";s:12:"优惠套餐";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"youhui";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"product";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost/icafsg/icafsg/index.php?/category/youhui";s:6:"rssurl";s:52:"http://localhost/icafsg/icafsg/index.php?/rss/youhui";s:5:"level";i:1;}i:11;a:26:{s:2:"id";s:2:"11";s:6:"parent";s:1:"0";s:3:"lft";s:2:"47";s:3:"rht";s:2:"48";s:4:"name";s:12:"产品服务";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"fuwu";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:7:"product";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:55:"http://localhost/icafsg/icafsg/index.php?/category/fuwu";s:6:"rssurl";s:50:"http://localhost/icafsg/icafsg/index.php?/rss/fuwu";s:5:"level";i:1;}i:24;a:26:{s:2:"id";s:2:"24";s:6:"parent";s:1:"0";s:3:"lft";s:2:"49";s:3:"rht";s:2:"50";s:4:"name";s:12:"测试栏目";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:5:"ceshi";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost/icafsg/icafsg/index.php?/category/ceshi";s:6:"rssurl";s:51:"http://localhost/icafsg/icafsg/index.php?/rss/ceshi";s:5:"level";i:1;}i:2;a:26:{s:2:"id";s:1:"2";s:6:"parent";s:1:"0";s:3:"lft";s:2:"51";s:3:"rht";s:2:"52";s:4:"name";s:12:"行业动态";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"hangye";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost/icafsg/icafsg/index.php?/category/hangye";s:6:"rssurl";s:52:"http://localhost/icafsg/icafsg/index.php?/rss/hangye";s:5:"level";i:1;}i:12;a:26:{s:2:"id";s:2:"12";s:6:"parent";s:1:"0";s:3:"lft";s:2:"53";s:3:"rht";s:2:"56";s:4:"name";s:12:"小六动态";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"xiaoliu";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:58:"http://localhost/icafsg/icafsg/index.php?/category/xiaoliu";s:6:"rssurl";s:53:"http://localhost/icafsg/icafsg/index.php?/rss/xiaoliu";s:5:"level";i:1;}i:13;a:26:{s:2:"id";s:2:"13";s:6:"parent";s:2:"12";s:3:"lft";s:2:"54";s:3:"rht";s:2:"55";s:4:"name";s:12:"帮助中心";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:4:"help";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:55:"http://localhost/icafsg/icafsg/index.php?/category/help";s:6:"rssurl";s:50:"http://localhost/icafsg/icafsg/index.php?/rss/help";s:5:"level";i:2;}i:6;a:26:{s:2:"id";s:1:"6";s:6:"parent";s:1:"0";s:3:"lft";s:2:"57";s:3:"rht";s:2:"58";s:4:"name";s:9:"技术类";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:10:"technology";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:1:"0";s:5:"model";s:2:"hr";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:61:"http://localhost/icafsg/icafsg/index.php?/category/technology";s:6:"rssurl";s:56:"http://localhost/icafsg/icafsg/index.php?/rss/technology";s:5:"level";i:1;}i:36;a:26:{s:2:"id";s:2:"36";s:6:"parent";s:1:"0";s:3:"lft";s:2:"59";s:3:"rht";s:2:"68";s:4:"name";s:15:"藝術節相關";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:19:"festivalcorrelation";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:70:"http://localhost/icafsg/icafsg/index.php?/category/festivalcorrelation";s:6:"rssurl";s:65:"http://localhost/icafsg/icafsg/index.php?/rss/festivalcorrelation";s:5:"level";i:1;}i:37;a:26:{s:2:"id";s:2:"37";s:6:"parent";s:2:"36";s:3:"lft";s:2:"60";s:3:"rht";s:2:"61";s:4:"name";s:18:"藝術節在台北";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:6:"taipei";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:57:"http://localhost/icafsg/icafsg/index.php?/category/taipei";s:6:"rssurl";s:52:"http://localhost/icafsg/icafsg/index.php?/rss/taipei";s:5:"level";i:2;}i:38;a:26:{s:2:"id";s:2:"38";s:6:"parent";s:2:"36";s:3:"lft";s:2:"62";s:3:"rht";s:2:"63";s:4:"name";s:21:"藝術節在新加坡";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:9:"singapore";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:60:"http://localhost/icafsg/icafsg/index.php?/category/singapore";s:6:"rssurl";s:55:"http://localhost/icafsg/icafsg/index.php?/rss/singapore";s:5:"level";i:2;}i:39;a:26:{s:2:"id";s:2:"39";s:6:"parent";s:2:"36";s:3:"lft";s:2:"64";s:3:"rht";s:2:"65";s:4:"name";s:18:"藝術節在首爾";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:5:"seoul";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:56:"http://localhost/icafsg/icafsg/index.php?/category/seoul";s:6:"rssurl";s:51:"http://localhost/icafsg/icafsg/index.php?/rss/seoul";s:5:"level";i:2;}i:40;a:26:{s:2:"id";s:2:"40";s:6:"parent";s:2:"36";s:3:"lft";s:2:"66";s:3:"rht";s:2:"67";s:4:"name";s:18:"藝術節在成都";s:10:"isexternal";s:1:"0";s:11:"externalurl";s:0:"";s:6:"target";s:5:"_self";s:3:"dir";s:7:"chengdu";s:5:"title";s:0:"";s:8:"keywords";s:0:"";s:11:"description";s:0:"";s:5:"model";s:7:"article";s:5:"thumb";s:31:"http://localhost/icafsg/icafsg/";s:7:"content";s:0:"";s:5:"color";s:0:"";s:7:"tpllist";s:0:"";s:9:"tpldetail";s:0:"";s:8:"pagesize";s:1:"0";s:12:"isnavigation";s:1:"0";s:10:"isdisabled";s:1:"0";s:9:"listorder";s:2:"99";s:4:"lang";s:5:"zh_cn";s:3:"url";s:58:"http://localhost/icafsg/icafsg/index.php?/category/chengdu";s:6:"rssurl";s:53:"http://localhost/icafsg/icafsg/index.php?/rss/chengdu";s:5:"level";i:2;}}}
