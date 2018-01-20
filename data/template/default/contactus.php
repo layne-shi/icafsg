@@ -22,11 +22,13 @@
 		<div class="crumbs" style="display:none;"><?=x6cms_location($category,' > ');?></div>
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
 
-		<div class="padding-20-65">
+		<div class="newscon">
 			<!-- <h1 class="text-align-center"><?=$category['name']?></h1> -->
-			<?=$category['content']?>
+			<div class="conwen2">
+				<?=$category['content']?>
+			</div>
+			
 
-            	<img src="data/attachment/image/20180109/a6fc5f446388c540f27e342b079d2c7d.jpg" alt="" />
 		</div>
 	</div>
 </div>

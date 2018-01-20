@@ -20,28 +20,18 @@
 	<!-- content -->
 	<div class="page-content clearfix">
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
-		<div class="mainleft">
-			<div class="leftsidebar" id="nava">
-
-			<ul class="clearfix">
-				<?php $tmpData = x6cms_thiscategory($category);?>
-				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
-				<?php endforeach; ?>
-			</ul>
-
-			</div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img1')?></div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img2')?></div>
-		</div>
-
 		<div class="mainright">
 			<div class="maincen2">
-				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
+				<!-- <div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div> -->
 
-				<div class="padding-20-65">
+				<div class="newscon">
 					<h1 class="text-align-center"><?=$detail['title']?></h1>
-					<?=$detail['content']?>
+					<!-- h2里放 發佈時間：2014/5/4 14:22:33    發佈人：    瀏覽次數：3304次  -->
+					<h2></h2>
+					<div class="conwen">
+						<?=$detail['content']?>
+					</div>
+					
 				</div>
 			</div>
 		</div>

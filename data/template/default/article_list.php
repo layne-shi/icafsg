@@ -20,25 +20,12 @@
 	<!-- content -->
 	<div class="page-content clearfix">
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
-		<div class="mainleft">
-			<div class="leftsidebar" id="nava">
 
-			<ul class="clearfix">
-				<?php $tmpData = x6cms_thiscategory($category);?>
-				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
-				<?php endforeach; ?>
-			</ul>
-
-			</div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img1')?></div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img2')?></div>
-		</div>
-
-		<div class="mainright">
-			<div class="maincen2">
-				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
-				<div class="zhanshi">
+				<!-- <div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div> -->
+		<div class="new_list">
+			<div class="newsbox_top">
+            </div>
+			<div class="newsbox_bot">
 					<ul class="clearfix">
 						<?php foreach ($list as $item): ?>
 						<li>
@@ -48,7 +35,6 @@
 						</li>
 						<?php endforeach; ?>
 					</ul>
-				</div>
 				<div class="page"><?=isset($pagestr)?$pagestr:''?></div>
 			</div>
 		</div>

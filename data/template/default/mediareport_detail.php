@@ -21,11 +21,16 @@
 	<div class="page-content clearfix">
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
 				<!-- <div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div> -->
-
-				<div class="padding-20-65 newscon">
+			<div class="maincen2">
+				<div class="newscon">
 					<h1 class="text-align-center"><?=$detail['title']?></h1>
-					<?=$detail['content']?>
+					<!-- h2里放 發佈時間：2014/5/4 14:22:33    發佈人：    瀏覽次數：3304次  -->
+					<h2></h2>
+					<div class="conwen">
+						<?=$detail['content']?>
+					</div>
 				</div>
+			</div>
 
 
 
