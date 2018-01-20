@@ -1,3 +1,4 @@
-# 缓存文件不同步
+﻿# 缓存文件不同步
 
 data/cache/*
+data/cache

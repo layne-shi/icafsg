@@ -26,12 +26,15 @@
 
 				<div class="newscon">
 					<h1 class="text-align-center"><?=$detail['title']?></h1>
-					<!-- h2里放 發佈時間：2014/5/4 14:22:33    發佈人：    瀏覽次數：3304次  -->
-					<h2></h2>
+                    <h2>
+                     發佈時間：<?=$detail['puttime']?>
+                     發佈人：<?=$detail['fromlink']?>
+                     瀏覽次數：<?=$detail['hits']?>次
+                    </h2>
 					<div class="conwen">
 						<?=$detail['content']?>
 					</div>
-					
+
 				</div>
 			</div>
 		</div>
