@@ -12,7 +12,6 @@
 		
 	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/jquery.min.js"></script>
 	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/public.js"></script>
-	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/flexible.js"></script>
 	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/fns.js"></script>
 	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/swfobject.js"></script>
 	<script type="text/javascript" src="<?=$config['site_templateurl'];?>/js/jquery.KinSlideshow-1.2.1.min.js"></script>

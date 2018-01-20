@@ -1203,3 +1203,10 @@ dl.sm_ny dd a.sp_tu h4 {font-weight: bold; font-size: 14px; color: #666666;  tex
 
 dl.sm_ny dd a.sp_tu:hover{ background:#cd3333 }
 dl.sm_ny dd a.sp_tu:hover h4 { color: #fff; }
+
+#btnlistID li{
+    width: 13px!important;
+    height: 13px!important;
+    border-radius: 50%!important;
+    text-indent: -1000px;
+}
