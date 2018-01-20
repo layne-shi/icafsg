@@ -22,11 +22,12 @@
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
 		<div class="mainleft">
 			<div class="leftsidebar" id="nava">
-
 			<ul class="clearfix">
 				<?php $tmpData = x6cms_thiscategory($category);?>
 				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
+				    <li class="menu_1">
+                        <a class="<?php if($item['id']==$category['id']):?> guo<?php endif;?>" href="<?=(site_url('category/'.$item['dir']))?>"><?=$item['name']?></a>
+                    </li>
 				<?php endforeach; ?>
 			</ul>
 
@@ -42,9 +43,14 @@
 					<ul class="clearfix">
 						<?php foreach ($list as $item): ?>
 						<li>
-							<div class="wen_fuwu">
-								<a href="<?=$item['url']?>"><?=$item['title']?></a>
-							</div>
+                            <div class="">
+                                <a href="<?=$item['url']?>">
+                                    <img src="<?=$item['thumb']?>" width="320" height="240">
+                                </a>
+                            </div>
+                            <div class="wen_fuwu">
+                                <!-- <a href="<?=$item['url']?>"><?=$item['title']?></a> -->
+                            </div>
 						</li>
 						<?php endforeach; ?>
 					</ul>
@@ -53,5 +59,8 @@
 			</div>
 		</div>
 	</div>
+
+
+
 </div>
 <?php $this->load->view($config['site_template'].'/foot');?>

@@ -6,6 +6,7 @@
 <meta name="keywords" content="<?=$config['seo_keywords']?>" />
 <meta name="description" content="<?=$config['seo_description']?>" />
 <meta name="author" content="<?=lang('system_author');?>" />
+<meta name="viewport" content="initial-scale=1, maximum-scale=1, user-scalable=no, width=device-width">
 <link rel="stylesheet" type="text/css" href="<?=$config['site_templateurl'];?>/css/style.css" />
 <link rel="stylesheet" type="text/css" href="<?=$config['site_templateurl'];?>/css/gd.css" />
 <link rel="shortcut icon" href="<?=x6cms_path('images/favicon.ico');?>" />

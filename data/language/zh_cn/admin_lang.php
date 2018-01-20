@@ -155,7 +155,7 @@ $lang['func_user'] = '用户管理';
 $lang['func_config'] = '站点设置';
 $lang['func_lang'] = '多语言管理';
 $lang['func_type'] = '模块分类';
-$lang['func_category'] = '栏目管理';
+$lang['func_category'] = '网站导航';
 $lang['func_adminindex'] = '后台首页';
 $lang['func_profile'] = '个人资料';
 $lang['func_propass'] = '修改密码';
@@ -173,9 +173,9 @@ $lang['func_sitemap'] = '网站地图';
 $lang['func_keywords'] = '网站关键词';
 $lang['func_tags'] = '聚合标签';
 $lang['func_model'] = '模型管理';
-$lang['func_article'] = '文章模型';
+$lang['func_article'] = '新闻中心';
 $lang['func_product'] = '产品模型';
-$lang['func_down'] = '下载模型';
+$lang['func_down'] = '报名资料下载';
 $lang['func_hr'] = '招聘模型';
 $lang['func_ask'] = '问答模型';
 $lang['func_page'] = '单页管理';
@@ -187,13 +187,11 @@ $lang['func_clearcache'] = '清除缓存';
 $lang['welcome'] = '欢迎您！';
 $lang['logout'] = '退出';
 $lang['browse_site'] = '浏览站点';
-$lang['x6cms_bbs'] = '技术论坛';
-$lang['x6cms_manual'] = '在线手册';
 
 
 /*usergroup*/
 $lang['superadmin'] = '超级管理员';
-$lang['generaladmin'] = '普通管理员';
+$lang['generaladmin'] = '管理员';
 $lang['generaluser'] = '普通用户';
 
 /*lang*/
@@ -275,8 +273,6 @@ $lang['model_hr'] = '招聘';
 $lang['model_down'] = '下载';
 $lang['model_page'] = '单页';
 $lang['model_guestbook'] = '留言';
-$lang['model_hello'] = '你好';
-$lang['model_artday'] = '艺术节';
 
 /*category*/
 $lang['category_name'] = '栏目名称';
@@ -400,9 +396,19 @@ $lang['upgradeok'] = '升级成功';
 $lang['backuptime'] = '备份时间';
 
 
-/* 艺术世界模块 */
-$lang['func_art'] = '艺术世界';         // 一级菜单
-$lang['func_art_man'] = '男艺术家';     // 二级菜单
-$lang['func_art_woman'] = '女艺术家';   // 二级菜单
+/* 艺术节项目 */
+$lang['func_artfestival'] = '艺术节项目';
+$lang['func_artscouncil'] = '艺术委员会';
+$lang['func_review'] = '精彩回顾';
+$lang['func_mediareport'] = '媒体报道';
+$lang['func_interfix'] = '艺术节相关';
+$lang['btn_recommend'] = '推荐';
+$lang['model_review'] = '精彩回顾';
+$lang['model_artscouncil'] = '艺术委员会';
+$lang['model_artfestival'] = '艺术节项目';
+$lang['model_mediareport'] = '媒体报道';
+$lang['model_interfix'] = '艺术节相关';
 
-
+/* 在线报名 */
+$lang['func_enrolladmin'] = '报名管理';
+$lang['func_enroll'] = '报名列表';

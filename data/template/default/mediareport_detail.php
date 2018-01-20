@@ -20,31 +20,12 @@
 	<!-- content -->
 	<div class="page-content clearfix">
 		<div class="ny_title"><img src="<?=$category['thumb'] ?>"></div>
-		<div class="mainleft">
-			<div class="leftsidebar" id="nava">
+				<!-- <div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div> -->
 
-			<ul class="clearfix">
-				<?php $tmpData = x6cms_thiscategory($category);?>
-				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
-				<?php endforeach; ?>
-			</ul>
-
-			</div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img1')?></div>
-			<div class="leftpic"><?=x6cms_fragment('atrical_left_bottom_img2')?></div>
-		</div>
-
-		<div class="mainright">
-			<div class="maincen2">
-				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
-
-				<div class="padding-20-65">
+				<div class="padding-20-65 newscon">
 					<h1 class="text-align-center"><?=$detail['title']?></h1>
 					<?=$detail['content']?>
 				</div>
-			</div>
-		</div>
 
 
 

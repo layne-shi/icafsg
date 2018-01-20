@@ -26,7 +26,9 @@
 			<ul class="clearfix">
 				<?php $tmpData = x6cms_thiscategory($category);?>
 				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
+				    <li class="menu_1">
+                        <a class="<?php if($item['id']==$category['id']):?> guo<?php endif;?>" href="<?=(site_url('category/'.$item['dir']))?>"><?=$item['name']?></a>
+                    </li>
 				<?php endforeach; ?>
 			</ul>
 
@@ -39,15 +41,30 @@
 			<div class="maincen2">
 				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
 				<div class="zhanshi">
-					<ul class="clearfix">
+					<h1 class="text-align-center" style="font-size: 16px;">
+                        <?=$category['name']?>
+					</h1>
+					
+                    <h5 style="text-align:center;    font-weight: normal; margin-bottom:30px;font-size: 12px;">按姓氏拼音排序</h5>
+                    <?php if($category['dir'] == 'previousjudges') :?>
+                    <!-- <h5 style="text-align:center;    font-weight: normal; margin-bottom:30px;font-size: 12px;">按姓氏拼音排序</h5> -->
+					<?php endif;?>
+
+					<div class="team">
+					
+
+					<dl class="clearfix">
 						<?php foreach ($list as $item): ?>
-						<li>
-							<div class="wen_fuwu">
-								<a href="<?=$item['url']?>"><?=$item['title']?></a>
-							</div>
-						</li>
+						<dd>
+								<a href="<?=$item['url']?>">
+									<img src="<?=$item['thumb']?>" width="164" height="218">
+									<h4><?=$item['title']?></h4>
+								</a>
+						</dd>
 						<?php endforeach; ?>
-					</ul>
+					</dl>
+
+					</div>
 				</div>
 				<div class="page"><?=isset($pagestr)?$pagestr:''?></div>
 			</div>

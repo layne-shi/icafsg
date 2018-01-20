@@ -56,6 +56,9 @@ a:hover {
     text-decoration: underline;
 }
 
+a{text-decoration:none; color:#696969}
+a:hover {color:#c61c1a;}
+
 html,
 body,
 p,
@@ -73,7 +76,7 @@ body {
     color: #696969;
     background: #e4e4e4;
     font-family: "宋体", "微软雅黑", "黑体", Verdana, Arial;
-    /* overflow-x: hidden; */
+    overflow-x: hidden;
 }
 
 h1 {
@@ -170,7 +173,7 @@ h6 {
 
 .logo {
     float: left;
-    margin: 0;
+    margin: 0 0 25px 0;
     display: inline;
 }
 
@@ -888,46 +891,46 @@ dl.sm dd a.sp_tu h4 {
     float: left;
     height: 41px;
     width: 285px;
-    /* text-indent: -10000px; */
+     /* text-indent: -10000px;  */
 }
 .related ul li img{
     border: none;
 }
 
 .related ul li a.sg1 {
-    /* background: url(../images/sg1_01.jpg) no-repeat */
+     background: url(../images/sg1_01.jpg) no-repeat 
 }
 
 .related ul li a.sg2 {
-    /* background: url(../images/sg2_01.jpg) no-repeat */
+     background: url(../images/sg2_01.jpg) no-repeat 
 }
 
 .related ul li a.sg3 {
-    /* background: url(../images/sg3_01.jpg) no-repeat */
+     background: url(../images/sg3_01.jpg) no-repeat 
 }
 
 .related ul li a.sg4 {
-    /* background: url(../images/sg4_01.jpg) no-repeat */
+     background: url(../images/sg4_01.jpg) no-repeat 
 }
 
 .related ul li a.sg5 {
-    /* background: url(../images/sg5_01.jpg) no-repeat */
+     background: url(../images/sg5_01.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg1 {
-    /* background: url(../images/sg1_02.jpg) no-repeat */
+     background: url(../images/sg1_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg2 {
-    /* background: url(../images/sg2_02.jpg) no-repeat */
+     background: url(../images/sg2_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg3 {
-    /* background: url(../images/sg3_02.jpg) no-repeat */
+     background: url(../images/sg3_02.jpg) no-repeat 
 }
 
 .related ul li a:hover.sg4 {
-    /* background: url(../images/sg4_02.jpg) no-repeat */
+     background: url(../images/sg4_02.jpg) no-repeat 
 }
 
 
@@ -1018,6 +1021,10 @@ dl.sm dd a.sp_tu h4 {
     background: url(../images/menu03.jpg) no-repeat
 }
 
+.mainleft .leftsidebar .menu_1 a.guo {
+    background: url(../images/menu03.jpg) no-repeat;
+}
+
 .mainleft .leftsidebar .menu_2 {
     width: 198px;
     height: 48px;
@@ -1066,8 +1073,11 @@ dl.sm dd a.sp_tu h4 {
 }
 
 .zhanshi ul li .tu_fuwu {
-    padding: 3px;
     background: #dddddd;
+    background: url(../images/team_de.jpg) no-repeat;
+    display: block;
+    width: 164px;
+    padding: 11px 12px 10px 11px;
 }
 
 .zhanshi ul li .wen_fuwu {
@@ -1121,3 +1131,75 @@ dl.bm_ny dd .x_piao{ height:26px; padding-left:196px;}
 .right-float img{
     border:none;
 }
+
+
+ul.sm_ny li {
+    float: left;
+    padding-top: 42px;
+    padding-right: 8px;
+    padding-left: 8px;
+}
+
+/* 新闻列表 */
+.new_list{width:875px; float:left; padding-top:15px; padding-left:65px; padding-right:60px;}
+
+.new_list .newsbox_top {height:auto; overflow:hidden;border-bottom:1px  dashed #c6c6c6; padding-top:15px; padding-bottom:15px;}
+.new_list .newsbox_top img {border:3px solid #dddddd;}
+.new_list .newsbox_top h1 { padding: 0; font-size:14px; color:#666666; font-weight:bold; height:30px; line-height:30px;}
+.new_list .newsbox_top p {text-indent:2em;line-height:26px;font-size:14px; padding-top:10px; height:55px; overflow:hidden}
+.new_list .newsbox_top .xiangxi{font-size:14px; color:#cf1b18; padding-top:10px; text-align:right; padding-right:18px;}
+.new_list .newsbox_top .xiangxi a{ color:#cf1b18; }
+.new_list .newsbox_top .xiangxi a:hover {color:#000; }
+
+.new_list .newsbox_bot { height:auto; overflow:hidden; }
+.new_list .newsbox_bot ul li {width:855px; height:auto; overflow:hidden; float:left; text-align:right; border-bottom:1px dashed #ccc; line-height:36px; height:36px; font-size:14px; padding-right:10px; padding-left:10px;}
+.new_list .newsbox_bot ul li a {width:auto; height:auto; overflow:hidden; float:left; color:#666666}
+.new_list .newsbox_bot ul li a:hover {color:#f00; }
+
+
+/* 新闻内页 */
+.newscon {width:875px; float:left; padding-top:20px; padding-left:65px; padding-right:60px;}
+.newscon h1{font-size:16px; color:#444443; font-weight:bold; height:45px; line-height:45px; text-align:center;border-bottom:1px dashed #ccc; padding-bottom:10px; padding-top:15px}
+.newscon h1 a{color:#444443; }
+.newscon h1 a:hover {color:#f00;}
+.newscon h2 {font-size:12px; font-weight:normal; text-align:center; color:#9a9797;font-family:"宋体"; height:20px; padding-top:14px; padding-bottom:14px;}
+.newscon  .conwen{ line-height:26px; font-size:14px; height:950px; overflow:auto}
+.newscon  .conwen2{ line-height:26px; font-size:14px; height:1050px; overflow:auto}
+
+/* 简介 */
+.newscon .vidio{ padding-top:35px; padding-bottom:60px; height:370px; text-align:center}
+
+
+/* 近期活动 */
+.huodong{ height:45px; padding:10px 0;}
+.huodong h1{font-size:16px; color:#444443; font-weight:bold; height:45px; line-height:45px; text-align:center}
+.huodong h1 a{color:#444443; }
+.huodong h1 a:hover {color:#f00;}
+
+.team{padding:0px 10px 0px 25px}
+.team dl {padding-right: 0px;  padding-bottom: 0px; }
+.team dl dd {float: left;  padding-right:16px; padding-left:16px; }
+.team dl dd a{display: block; width:164px;   height:250px; padding:11px 12px 20px 11px;  background:url(../images/team_de.jpg) no-repeat; margin-bottom:10px }
+.team dl dd a h4 {font-size:12px; color: #494949; padding-top:14px; text-align:center}
+
+.team dl dd a:hover{ background:#cd3333 }
+.team dl dd a:hover h4 { color: #fff; }
+
+/* 近期活动-内页 */
+
+.wenziny{padding:0px 10px 0px 10px; line-height:30px; height:950px; overflow:auto}
+
+
+
+/* 艺术节项目 */
+
+#middle_2{ overflow:hidden}
+
+.project_ny{ width:1000px; float:left; padding-top:15px}
+dl.sm_ny {padding-left:18px; }
+dl.sm_ny dd {float: left;  padding-top:42px; padding-right:8px; padding-left:8px;}
+dl.sm_ny dd a.sp_tu {display: block; width:276px;   height:192px; padding:15px 15px 0px 15px; background:#ddd }
+dl.sm_ny dd a.sp_tu h4 {font-weight: bold; font-size: 14px; color: #666666;  text-align:center; padding-top:8px}
+
+dl.sm_ny dd a.sp_tu:hover{ background:#cd3333 }
+dl.sm_ny dd a.sp_tu:hover h4 { color: #fff; }

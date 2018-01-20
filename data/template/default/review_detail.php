@@ -24,9 +24,13 @@
 			<div class="leftsidebar" id="nava">
 
 			<ul class="clearfix">
-				<?php $tmpData = x6cms_thiscategory($category);?>
+				<?php $tmpData = review_tree($category);?>
 				<?php foreach ($tmpData as $item): ?>
-				<li class="menu_<?=$item['level']?><?php if($item['id']==$category['id']):?> active<?php endif;?>"><a href="<?=$item['url']?>"><?=$item['name']?></a></li>
+                <?php if($item['parent'] > 0):?>
+				    <li class="menu_<?=($item['count'] ==2?'1':'2')?>">
+                        <a class="<?php if($item['id']==$category['id']):?> guo<?php endif;?>" href="<?=(site_url('category/'.$item['dir']))?>"><?=$item['name']?></a>
+                    </li>
+                <?php endif;?>
 				<?php endforeach; ?>
 			</ul>
 
@@ -38,20 +42,18 @@
 		<div class="mainright">
 			<div class="maincen2">
 				<div id="weizhi">所在位 &gt; <?=x6cms_location($category,' > ');?></div>
-				<div class="zhanshi">
-					<ul class="clearfix">
-						<?php foreach ($list as $item): ?>
-						<li>
-							<div class="wen_fuwu">
-								<a href="<?=$item['url']?>"><?=$item['title']?></a>
-							</div>
-						</li>
-						<?php endforeach; ?>
-					</ul>
+
+				<div class="padding-20-65">
+					<h1 class="text-align-center"><?=$detail['title']?></h1>
+					<?=$detail['content']?>
 				</div>
-				<div class="page"><?=isset($pagestr)?$pagestr:''?></div>
 			</div>
 		</div>
+
+
+
+
 	</div>
 </div>
+
 <?php $this->load->view($config['site_template'].'/foot');?>

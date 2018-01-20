@@ -99,6 +99,17 @@ function x6cms_thiscategory($category){
 	return $data;
 }
 
+# '精彩视频' 子孙树排序分类
+function review_tree($category)
+{
+    $CI =& get_instance();
+    $CI->load->model('Data_model');
+    $CI->load->model('Tool_model');
+    $arr = mult_to_single($CI->Data_model->getData(array('isdisabled'=>0,'model'=>'review'),'parent,listorder',0,0,'category'));
+    $data = $CI->Tool_model->tree($arr);
+	return $data;
+}
+
 function x6cms_allcategory(){
 	$CI =& get_instance();
 	$data=$CI->Cache_model->loadAllCategory();
